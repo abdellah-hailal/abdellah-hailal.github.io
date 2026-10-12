@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hailal.com/sitemap.xml
