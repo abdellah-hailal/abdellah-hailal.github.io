@@ -109,6 +109,10 @@ Après une modification, mettre à jour la date `lastmod` dans `sitemap.xml`.
 
 Chaque capture existe en deux tailles WebP dans `assets/img/projets/` : la largeur d'origine (affichée dans la visionneuse) et la moitié (affichée dans la page). Garder les attributs `width` et `height` égaux aux dimensions d'origine pour éviter les décalages de mise en page, et décrire l'écran dans l'attribut `alt`.
 
+## Version anglaise
+
+La page anglaise (`en/index.html`) est générée à partir du même gabarit. Les traductions sont dans `src/i18n_en.py` du projet source ; dans ce dépôt, modifier directement `en/index.html` en gardant la même structure que `index.html`.
+
 ## Direction visuelle
 
 Les décisions de design (couleurs, typographies, espacements, mouvement) sont décrites dans `DESIGN.md`.

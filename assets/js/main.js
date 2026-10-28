@@ -1,6 +1,7 @@
 'use strict';
 
 (function () {
+  var isEn = (document.documentElement.lang || '').indexOf('en') === 0;
   /* Graphe causal : tracé des arêtes une seule fois au chargement. */
   var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!calm) {
@@ -99,13 +100,13 @@
     var selectFallback = function () {
       var r = document.createRange(); r.selectNodeContents(email);
       var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-      status.textContent = 'Adresse sélectionnée. Copiez-la avec Ctrl+C ou Cmd+C.';
+      status.textContent = isEn ? 'Address selected. Copy it with Ctrl+C or Cmd+C.' : 'Adresse sélectionnée. Copiez-la avec Ctrl+C ou Cmd+C.';
     };
     btn.addEventListener('click', function () {
       var text = email.textContent.trim();
       try {
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(text).then(function () { status.textContent = 'Adresse copiée.'; }, selectFallback);
+          navigator.clipboard.writeText(text).then(function () { status.textContent = isEn ? 'Address copied.' : 'Adresse copiée.'; }, selectFallback);
         } else { selectFallback(); }
       } catch (e) { selectFallback(); }
     });
