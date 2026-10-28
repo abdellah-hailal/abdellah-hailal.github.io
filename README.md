@@ -1,4 +1,4 @@
-# Portfolio d'Abdellah Hailal
+# Portfolio d'Abdellah Hailal (« Cause et effet »)
 
 Site statique en HTML, CSS et JavaScript natifs. Aucune dépendance, aucune étape de compilation.
 
@@ -10,7 +10,8 @@ portfolio/
 ├── 404.html                Page d'erreur
 ├── assets/
 │   ├── css/styles.css      Styles (mobile d'abord, thèmes clair et sombre)
-│   ├── js/main.js          Visionneuse des captures et copie de l'adresse
+│   ├── js/main.js          Graphe causal, visionneuse, copie de l'adresse
+│   ├── fonts/              Schibsted Grotesk et Newsreader (hébergées localement)
 │   └── img/
 │       ├── favicon.svg
 │       ├── projets/        Captures d'écran des projets (WebP, deux tailles chacune)
@@ -98,7 +99,7 @@ Importer le dépôt ou glisser le dossier `portfolio` dans l'interface, sans com
 
 ## Mettre à jour le contenu
 
-Tout le texte se trouve dans `index.html`. Chaque projet est un bloc `<article class="project">` : copier un bloc existant pour en ajouter un nouveau.
+Tout le texte se trouve dans `index.html`. Chaque projet est un bloc `<article class="case">` : copier un bloc existant pour en ajouter un nouveau.
 
 Pour changer les couleurs, modifier les variables au début de `assets/css/styles.css` (bloc `:root` pour le thème clair, bloc `prefers-color-scheme: dark` pour le thème sombre). Vérifier le contraste (au moins 4,5:1 pour le texte) après chaque changement.
 
@@ -107,3 +108,9 @@ Après une modification, mettre à jour la date `lastmod` dans `sitemap.xml`.
 ## Ajouter ou remplacer une capture d'écran
 
 Chaque capture existe en deux tailles WebP dans `assets/img/projets/` : la largeur d'origine (affichée dans la visionneuse) et la moitié (affichée dans la page). Garder les attributs `width` et `height` égaux aux dimensions d'origine pour éviter les décalages de mise en page, et décrire l'écran dans l'attribut `alt`.
+
+## Direction visuelle
+
+Les décisions de design (couleurs, typographies, espacements, mouvement) sont décrites dans `DESIGN.md`.
+
+Le graphe du héros est écrit directement en SVG dans `index.html` (deux variantes : `graph-wide` et `graph-tall`). Pour ajouter un projet, ajouter son nœud et ses arêtes dans les deux variantes ; chaque arête porte `data-from` et `data-to`.

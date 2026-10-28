@@ -3,30 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Abdellah Hailal · Science des données</title>
-  <meta name="description" content="Portfolio d'Abdellah Hailal, étudiant finissant en science des données à l'UQTR : classification d'arythmies cardiaques, inférence causale, développement web et IA appliquée.">
+  <title>Abdellah Hailal · Science des données et inférence causale</title>
+  <meta name="description" content="Abdellah Hailal, étudiant finissant en science des données à l'UQTR. Classification d'arythmies cardiaques, inférence causale et applications web complètes. Disponible pour un stage de janvier à avril 2027.">
   <meta name="author" content="Abdellah Hailal">
   <link rel="canonical" href="https://hailal.com/">
-  <meta name="theme-color" content="#F4F6F5" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0E151A" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#EEF0F5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1022" media="(prefers-color-scheme: dark)">
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="fr_CA">
   <meta property="og:site_name" content="Abdellah Hailal">
-  <meta property="og:title" content="Abdellah Hailal · Science des données">
-  <meta property="og:description" content="Apprentissage automatique appliqué, inférence causale et signaux biomédicaux. Disponible pour un stage de janvier à avril 2027.">
+  <meta property="og:title" content="Abdellah Hailal · Science des données et inférence causale">
+  <meta property="og:description" content="Je mesure l'effet réel des choses et je construis les outils qui s'en servent. Stage recherché de janvier à avril 2027.">
   <meta property="og:url" content="https://hailal.com/">
   <meta property="og:image" content="https://hailal.com/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Abdellah Hailal, science des données, sur un tracé ECG">
+  <meta property="og:image:alt" content="do(Abdellah Hailal) : graphe causal reliant ses compétences à ses projets">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/schibsted-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/newsreader-latin-standard-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/main.js" defer></script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Abdellah Hailal","jobTitle":"Étudiant en science des données","email":"mailto:abdellah.hailal@outlook.com","url":"https://hailal.com/","sameAs":["https://github.com/abdellah-hailal"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Université du Québec à Trois-Rivières"},"address":{"@type":"PostalAddress","addressLocality":"Trois-Rivières","addressRegion":"QC","addressCountry":"CA"},"knowsAbout":["Apprentissage automatique","Inférence causale","Signaux biomédicaux","Science des données"]}
+  {"@context":"https://schema.org","@type":"Person","name":"Abdellah Hailal","jobTitle":"Étudiant en science des données","email":"mailto:abdellah.hailal@outlook.com","url":"https://hailal.com/","sameAs":["https://github.com/abdellah-hailal"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Université du Québec à Trois-Rivières"},"address":{"@type":"PostalAddress","addressLocality":"Trois-Rivières","addressRegion":"QC","addressCountry":"CA"},"knowsAbout":["Science des données","Inférence causale","Apprentissage automatique","Signaux biomédicaux","Développement web"],"knowsLanguage":["fr","en"]}
   </script>
 </head>
 <body>
@@ -34,325 +36,298 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="#haut">A. Hailal</a>
+    <a class="brand" href="#haut" aria-label="Abdellah Hailal, haut de page">
+      <svg width="28" height="28" aria-hidden="true" focusable="false" viewBox="0 0 32 32"><rect class="logo-bg" width="32" height="32" rx="8"/><g class="logo-fg" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 23.5L10.5 8.5L15.5 23.5M7.4 18H13.6"/><path d="M19 8.5V23.5M26.5 8.5V23.5"/></g><path d="M19 16H26.5" stroke="#9EA2FF" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <span>Abdellah Hailal</span>
+    </a>
     <nav class="nav" aria-label="Navigation principale">
       <ul>
         <li><a href="#projets">Projets</a></li>
-        <li class="nav-hide"><a href="#competences">Compétences</a></li>
+        <li class="nav-extra"><a href="#parcours">Parcours</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a class="ext" href="https://github.com/abdellah-hailal" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub<span class="visually-hidden"> (nouvel onglet)</span></a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main id="contenu">
-  <section class="hero" id="haut" aria-labelledby="titre">
-    <div class="wrap">
-      <div class="hero-grid">
-        <h1 id="titre">Abdellah Hailal</h1>
-        <div class="hero-meta">
-          <span class="label">Science des données</span>
-          <span class="label">UQTR · Trois-Rivières</span>
-        </div>
-        <div class="hero-body">
-          <p class="lead">Étudiant finissant en science des données à l'Université du Québec à Trois-Rivières. Je construis des modèles d'apprentissage automatique et d'inférence causale, surtout sur des signaux biomédicaux, et je les livre jusqu'au rapport ou à l'application.</p>
-          <p class="status">
-            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M1.5 6h13M5 1v3M11 1v3" stroke="currentColor" stroke-width="1.3" fill="none"/></svg>
-            Disponible pour un stage crédité de janvier à avril 2027
-          </p>
-          <div class="actions">
-            <a class="btn btn-primary" href="#projets">Voir les projets</a>
-            <a class="btn btn-ghost" href="#contact">Me contacter</a>
-          </div>
+
+  <section class="hero" id="haut" aria-labelledby="nom">
+    <div class="wrap hero-grid">
+      <h1 class="hero-name" id="nom">
+          <span class="row"><span class="op" aria-hidden="true">do</span><span class="paren" aria-hidden="true">(</span>Abdellah</span>
+          <span class="row">Hailal<span class="paren" aria-hidden="true">)</span></span>
+        </h1>
+      <div class="hero-text">
+        <p class="hero-lead">Étudiant finissant en science des données à l'UQTR. Je mesure l'effet réel des choses, sur des signaux cardiaques comme dans un produit, puis je construis les outils qui s'en servent.</p>
+        <p class="hero-meta">
+          <span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Stage crédité, janvier à avril 2027</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>Trois-Rivières, Québec</span>
+        </p>
+        <div class="actions">
+          <a class="btn btn--primary" href="#projets">Voir les projets</a>
+          <a class="btn btn--ghost" href="mailto:abdellah.hailal@outlook.com?subject=Stage%20en%20science%20des%20donn%C3%A9es"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg>M'écrire</a>
         </div>
       </div>
 
+      <figure class="graph" aria-labelledby="graph-cap">
+        <div class="graph-frame">
+          <svg class="graph-wide" viewBox="-2 0 804 460" role="img" aria-labelledby="gw-t gw-d"><title id="gw-t">Graphe causal : compétences, projets et stage visé</title><desc id="gw-d">Signaux biomédicaux, inférence causale et apprentissage automatique mènent au projet sur les arythmies MIT-BIH. Apprentissage automatique, génie logiciel et terrain client mènent à Renovision AI. Génie logiciel mène à Thiercelieux. Les trois projets mènent à votre équipe, pour un stage dès janvier 2027.</desc><defs><marker id="mk-w" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="g-head" d="M0 1.5L9 5L0 8.5z"/></marker></defs><text class="g-col" x="0" y="17">Ce que j'apporte</text><text class="g-col" x="322" y="17">Ce que j'ai construit</text><text class="g-col" x="626" y="17">La suite</text><path class="g-edge" data-from="signaux" data-to="ecg" data-step="1" d="M236.0 72.0 C277.5 72.0 277.5 92.0 319.0 92.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="causal" data-to="ecg" data-step="1" d="M236.0 158.0 C277.5 158.0 277.5 92.0 319.0 92.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="ml" data-to="ecg" data-step="2" d="M236.0 244.0 C277.5 244.0 277.5 92.0 319.0 92.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="ml" data-to="reno" data-step="2" d="M236.0 244.0 C277.5 244.0 277.5 266.0 319.0 266.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="logiciel" data-to="reno" data-step="3" d="M236.0 330.0 C277.5 330.0 277.5 266.0 319.0 266.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="terrain" data-to="reno" data-step="3" d="M236.0 416.0 C277.5 416.0 277.5 266.0 319.0 266.0" marker-end="url(#mk-w)"/><path class="g-edge" data-from="logiciel" data-to="loups" data-step="3" d="M236.0 330.0 C277.5 330.0 277.5 392.0 319.0 392.0" marker-end="url(#mk-w)"/><path class="g-edge g-edge--future" data-from="ecg" data-to="equipe" data-step="4" d="M550.0 92.0 C586.5 92.0 586.5 242.0 623.0 242.0" marker-end="url(#mk-w)"/><path class="g-edge g-edge--future" data-from="reno" data-to="equipe" data-step="4" d="M550.0 266.0 C586.5 266.0 586.5 242.0 623.0 242.0" marker-end="url(#mk-w)"/><path class="g-edge g-edge--future" data-from="loups" data-to="equipe" data-step="4" d="M550.0 392.0 C586.5 392.0 586.5 242.0 623.0 242.0" marker-end="url(#mk-w)"/><g class="g-node g-node--cause" data-id="signaux"><rect x="0" y="50" width="236" height="44" rx="21"/><text x="20" y="77.0">Signaux biomédicaux</text></g><g class="g-node g-node--cause" data-id="causal"><rect x="0" y="136" width="236" height="44" rx="21"/><text x="20" y="163.0">Inférence causale</text></g><g class="g-node g-node--cause" data-id="ml"><rect x="0" y="222" width="236" height="44" rx="21"/><text x="20" y="249.0">Apprentissage automatique</text></g><g class="g-node g-node--cause" data-id="logiciel"><rect x="0" y="308" width="236" height="44" rx="21"/><text x="20" y="335.0">Génie logiciel</text></g><g class="g-node g-node--cause" data-id="terrain"><rect x="0" y="394" width="236" height="44" rx="21"/><text x="20" y="421.0">Terrain client</text></g><a class="g-link" href="#projet-ecg" aria-label="Arythmies MIT-BIH, classification et causalité"><g class="g-node g-node--project" data-id="ecg"><rect x="322" y="61.0" width="228" height="62" rx="10"/><text class="g-title" x="340" y="89.0">Arythmies MIT-BIH</text><text class="g-sub" x="340" y="108.0">classification et causalité</text></g></a><a class="g-link" href="#projet-renovision" aria-label="Renovision AI, IA générative, produit"><g class="g-node g-node--project" data-id="reno"><rect x="322" y="235.0" width="228" height="62" rx="10"/><text class="g-title" x="340" y="263.0">Renovision AI</text><text class="g-sub" x="340" y="282.0">IA générative, produit</text></g></a><a class="g-link" href="#projet-thiercelieux" aria-label="Thiercelieux, jeu web multijoueur"><g class="g-node g-node--project" data-id="loups"><rect x="322" y="361.0" width="228" height="62" rx="10"/><text class="g-title" x="340" y="389.0">Thiercelieux</text><text class="g-sub" x="340" y="408.0">jeu web multijoueur</text></g></a><a class="g-link" href="#contact" aria-label="Votre équipe, stage, janvier 2027"><g class="g-node g-node--goal" data-id="equipe"><rect x="626" y="211.0" width="174" height="62" rx="10"/><text class="g-title" x="644" y="239.0">Votre équipe</text><text class="g-sub" x="644" y="258.0">stage, janvier 2027</text></g></a></svg>
+          <svg class="graph-tall" viewBox="-2 0 364 466.0" role="img" aria-labelledby="gt-t gt-d"><title id="gt-t">Graphe causal : compétences, projets et stage visé</title><desc id="gt-d">Signaux biomédicaux, inférence causale et apprentissage automatique mènent au projet sur les arythmies MIT-BIH. Apprentissage automatique, génie logiciel et terrain client mènent à Renovision AI. Génie logiciel mène à Thiercelieux. Les trois projets mènent à votre équipe, pour un stage dès janvier 2027.</desc><defs><marker id="mk-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="g-head" d="M0 1.5L9 5L0 8.5z"/></marker></defs><text class="g-col" x="0" y="17">Ce que j'apporte</text><text class="g-col" x="182" y="17">Ce que j'ai construit</text><text class="g-col" x="182" y="392.0">La suite</text><path class="g-edge" data-from="signaux" data-to="ecg" data-step="1" d="M140.0 60.0 C159.5 60.0 159.5 96.0 179.0 96.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="causal" data-to="ecg" data-step="1" d="M140.0 126.0 C159.5 126.0 159.5 96.0 179.0 96.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="ml" data-to="ecg" data-step="2" d="M140.0 192.0 C159.5 192.0 159.5 96.0 179.0 96.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="ml" data-to="reno" data-step="2" d="M140.0 192.0 C159.5 192.0 159.5 232.0 179.0 232.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="logiciel" data-to="reno" data-step="3" d="M140.0 258.0 C159.5 258.0 159.5 232.0 179.0 232.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="terrain" data-to="reno" data-step="3" d="M140.0 324.0 C159.5 324.0 159.5 232.0 179.0 232.0" marker-end="url(#mk-t)"/><path class="g-edge" data-from="logiciel" data-to="loups" data-step="3" d="M140.0 258.0 C159.5 258.0 159.5 334.0 179.0 334.0" marker-end="url(#mk-t)"/><path class="g-edge g-edge--future" data-from="ecg" data-to="equipe" data-step="4" d="M344 96 L351.0 96 Q358 96 358 103.0 L358 411.0 Q358 418 351.0 418 L347 418" marker-end="url(#mk-t)"/><path class="g-edge g-edge--future" data-from="reno" data-to="equipe" data-step="4" d="M344 232 L349.0 232 Q354 232 354 237.0 L354 427.0 Q354 432 349.0 432 L347 432" marker-end="url(#mk-t)"/><path class="g-edge g-edge--future" data-from="loups" data-to="equipe" data-step="4" d="M344 334 L347.0 334 Q350 334 350 337.0 L350 443.0 Q350 446 347.0 446 L347 446" marker-end="url(#mk-t)"/><g class="g-node g-node--cause" data-id="signaux"><rect x="0" y="34" width="140" height="52" rx="21"/><text x="16" y="56.5">Signaux</text><text x="16" y="73.5">biomédicaux</text></g><g class="g-node g-node--cause" data-id="causal"><rect x="0" y="100" width="140" height="52" rx="21"/><text x="16" y="122.5">Inférence</text><text x="16" y="139.5">causale</text></g><g class="g-node g-node--cause" data-id="ml"><rect x="0" y="166" width="140" height="52" rx="21"/><text x="16" y="188.5">Apprentissage</text><text x="16" y="205.5">automatique</text></g><g class="g-node g-node--cause" data-id="logiciel"><rect x="0" y="232" width="140" height="52" rx="21"/><text x="16" y="263.0">Génie logiciel</text></g><g class="g-node g-node--cause" data-id="terrain"><rect x="0" y="298" width="140" height="52" rx="21"/><text x="16" y="329.0">Terrain client</text></g><a class="g-link" href="#projet-ecg" aria-label="Arythmies MIT-BIH, classification"><g class="g-node g-node--project" data-id="ecg"><rect x="182" y="66.0" width="162" height="60" rx="10"/><text class="g-title" x="194" y="93.0">Arythmies MIT-BIH</text><text class="g-sub" x="194" y="112.0">classification</text></g></a><a class="g-link" href="#projet-renovision" aria-label="Renovision AI, IA générative"><g class="g-node g-node--project" data-id="reno"><rect x="182" y="202.0" width="162" height="60" rx="10"/><text class="g-title" x="194" y="229.0">Renovision AI</text><text class="g-sub" x="194" y="248.0">IA générative</text></g></a><a class="g-link" href="#projet-thiercelieux" aria-label="Thiercelieux, jeu multijoueur"><g class="g-node g-node--project" data-id="loups"><rect x="182" y="304.0" width="162" height="60" rx="10"/><text class="g-title" x="194" y="331.0">Thiercelieux</text><text class="g-sub" x="194" y="350.0">jeu multijoueur</text></g></a><a class="g-link" href="#contact" aria-label="Votre équipe, janvier 2027"><g class="g-node g-node--goal" data-id="equipe"><rect x="182" y="402.0" width="162" height="60" rx="10"/><text class="g-title" x="194" y="429.0">Votre équipe</text><text class="g-sub" x="194" y="448.0">janvier 2027</text></g></a></svg>
+        </div>
+        <figcaption id="graph-cap">Survolez un nœud pour suivre ses causes et ses effets. Chaque projet mène à son étude de cas.</figcaption>
+      </figure>
     </div>
   </section>
 
   <section class="section" id="projets" aria-labelledby="projets-titre">
-    <div class="wrap section-grid">
-      <div class="section-head">
-        <span class="label">Travaux</span>
-        <h2 id="projets-titre">Projets choisis</h2>
-      </div>
-      <div class="section-body">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="projets-titre">Trois projets, trois chaînes de cause à effet</h2>
+        <p>Pour chacun : la question de départ, ce que j'ai fait, et ce que ça a produit.</p>
+      </header>
 
-        <article class="project" aria-labelledby="p1">
-          <div class="project-top">
-            <span class="label">Projet individuel · Supervision du Pr Usef Faghihi</span>
-            <h3 id="p1">Arythmies cardiaques sur la base MIT-BIH</h3>
-            <p class="summary">Classer les battements cardiaques, prédire le rythme et estimer l'effet causal des battements prématurés sur les intervalles RR qui suivent.</p>
-          </div>
-          <div class="project-cols">
-            <div class="prose">
-              <h4>Démarche</h4>
-              <ul>
-                <li>Classification supervisée des types de battements avec MiniRocket, XGBoost et un réseau CNN 1D + LSTM.</li>
-                <li>Modélisation prédictive de la dynamique du rythme cardiaque.</li>
-                <li>Inférence causale par Double ML et CausalForestDML : effet moyen du traitement (ATE) d'un battement prématuré sur les intervalles RR suivants, avec un effet significatif observé.</li>
-              </ul>
-              <h4>Ce que la revue méthodologique m'a appris</h4>
-              <p>Mon superviseur a relevé neuf problèmes, dont une fuite de données entre patients dans la séparation entraînement et test, des variables post-traitement utilisées comme facteurs de confusion, un groupe de traitement mal défini et un déséquilibre de classes. Je corrige ces points en ce moment.</p>
-              <ul class="tags" aria-label="Outils">
+      <div class="cases">
+
+        <article class="case" id="projet-ecg" aria-labelledby="ecg-t">
+          <header class="case-head">
+            <h3 id="ecg-t">Arythmies cardiaques sur la base MIT-BIH</h3>
+            <p class="case-summary">Reconnaître automatiquement les types de battements, puis mesurer ce qu'un battement prématuré change aux battements suivants.</p>
+          </header>
+          <dl class="facts">
+            <div><dt>Contexte</dt><dd>Projet individuel, UQTR</dd></div>
+            <div><dt>Supervision</dt><dd>Pr Usef Faghihi</dd></div>
+            <div><dt>Données</dt><dd>MIT-BIH Arrhythmia Database</dd></div>
+            <div><dt>Statut</dt><dd>Corrections méthodologiques en cours</dd></div>
+          </dl>
+          <ol class="chain" aria-label="Chaîne de cause à effet">
+            <li><span class="step">Question<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>Peut-on classer les battements cardiaques de façon fiable, et un battement prématuré modifie-t-il vraiment les intervalles RR qui suivent ?</p></li>
+            <li><span class="step">Intervention<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>Classification avec MiniRocket, XGBoost et un réseau CNN 1D + LSTM. Modélisation du rythme, puis estimation de l'effet causal avec Double ML et CausalForestDML.</p></li>
+            <li><span class="step">Effet</span><p>XGBoost atteint 0,74 d'exactitude. L'effet moyen (ATE) d'un battement prématuré sur les intervalles RR suivants est significatif.</p></li>
+          </ol>
+          <div class="case-body">
+            <div class="case-side">
+              <p class="honest">Ces résultats sont préliminaires. Mon superviseur a relevé neuf problèmes, dont une fuite de données entre patients et des variables post-traitement prises comme facteurs de confusion. Je refais l'analyse en les corrigeant.</p>
+              <ul class="tools" aria-label="Outils">
                 <li>Python</li><li>Jupyter</li><li>MiniRocket</li><li>XGBoost</li><li>CNN 1D + LSTM</li><li>Double ML</li><li>CausalForestDML</li>
               </ul>
             </div>
-            <figure class="figure">
-              <div class="panel">
-                <svg class="chart" viewBox="0 0 420 150" role="img" aria-labelledby="c1t c1d">
-                  <title id="c1t">Exactitude par modèle</title>
-                  <desc id="c1d">XGBoost 0,74, MiniRocket 0,69, CNN 1D plus LSTM 0,51, sur une échelle de 0 à 1.</desc>
-                  <g>
-                    <line class="axis" x1="120" y1="8" x2="120" y2="122"/>
-                    <line class="axis" x1="192.5" y1="8" x2="192.5" y2="122" stroke-dasharray="2 3"/>
-                    <line class="axis" x1="265" y1="8" x2="265" y2="122" stroke-dasharray="2 3"/>
-                    <line class="axis" x1="337.5" y1="8" x2="337.5" y2="122" stroke-dasharray="2 3"/>
-                    <line class="axis" x1="410" y1="8" x2="410" y2="122" stroke-dasharray="2 3"/>
+            <div class="case-side">
+              <figure class="figure">
+                <div class="panel">
+                  <svg class="chart" viewBox="0 0 440 156" role="img" aria-labelledby="ch-t ch-d">
+                    <title id="ch-t">Exactitude par modèle</title>
+                    <desc id="ch-d">XGBoost 0,74 ; MiniRocket 0,69 ; CNN 1D plus LSTM 0,51, sur une échelle de 0 à 1.</desc>
+                    <line class="grid" x1="122" y1="6" x2="122" y2="122"/>
+                    <line class="grid" x1="198" y1="6" x2="198" y2="122" stroke-dasharray="2 4"/>
+                    <line class="grid" x1="274" y1="6" x2="274" y2="122" stroke-dasharray="2 4"/>
+                    <line class="grid" x1="350" y1="6" x2="350" y2="122" stroke-dasharray="2 4"/>
+                    <line class="grid" x1="426" y1="6" x2="426" y2="122" stroke-dasharray="2 4"/>
+                    <text x="112" y="32" text-anchor="end">XGBoost</text>
+                    <rect class="bar bar--best" x="122" y="14" width="224.9" height="26" rx="3"/>
+                    <text class="val" x="352" y="32">0,74</text>
+                    <text x="112" y="70" text-anchor="end">MiniRocket</text>
+                    <rect class="bar" x="122" y="52" width="209.8" height="26" rx="3"/>
+                    <text class="val" x="337" y="70">0,69</text>
+                    <text x="112" y="108" text-anchor="end">CNN 1D + LSTM</text>
+                    <rect class="bar" x="122" y="90" width="155" height="26" rx="3"/>
+                    <text class="val" x="283" y="108">0,51</text>
+                    <text x="122" y="146" text-anchor="middle">0</text>
+                    <text x="198" y="146" text-anchor="middle">0,25</text>
+                    <text x="274" y="146" text-anchor="middle">0,5</text>
+                    <text x="350" y="146" text-anchor="middle">0,75</text>
+                    <text x="426" y="146" text-anchor="end">1</text>
+                  </svg>
+                </div>
+                <figcaption>Exactitude de classification, avant la séparation des données par patient.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <figure class="figure strip">
+            <div class="panel">
+              <div class="strip-scroll" tabindex="0" role="region" aria-label="Tracé ECG, défilable horizontalement">
+                <svg viewBox="0 0 1200 214" role="img" aria-labelledby="ecg-st ecg-sd">
+                  <title id="ecg-st">Tracé ECG avec une extrasystole ventriculaire</title>
+                  <desc id="ecg-sd">Six secondes de rythme sinusal à intervalles RR de 800 ms, interrompu par une extrasystole ventriculaire précoce à 450 ms, suivie d'une pause compensatoire de 1150 ms.</desc>
+                  <defs>
+                    <pattern id="gm" width="8" height="8" patternUnits="userSpaceOnUse"><path class="gm" d="M8 0H0V8" fill="none"/></pattern>
+                    <pattern id="gM" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="url(#gm)"/><path class="gM" d="M40 0H0V40" fill="none"/></pattern>
+                  </defs>
+                  <rect width="1200" height="214" fill="url(#gM)"/>
+                  <rect class="pvc" x="468" y="0" width="64" height="214"/>
+                  <path class="trace" d="M0.0 130.0 L1.0 130.0 L2.0 130.0 L3.0 130.0 L4.0 130.0 L5.0 130.0 L6.0 130.0 L7.0 130.0 L8.0 130.0 L9.0 130.0 L10.0 130.0 L11.0 130.0 L12.0 130.0 L13.0 130.0 L14.0 130.0 L15.0 130.0 L16.0 130.0 L17.0 130.0 L18.0 130.0 L19.0 130.0 L20.0 130.0 L21.0 130.0 L22.0 130.0 L23.0 130.0 L24.0 130.0 L25.0 130.0 L26.0 130.0 L27.0 130.0 L28.0 130.0 L29.0 130.0 L30.0 130.0 L31.0 130.0 L32.0 130.0 L33.0 130.0 L34.0 130.0 L35.0 130.0 L36.0 130.0 L37.0 130.0 L38.0 130.0 L39.0 130.0 L40.0 129.9 L41.0 129.9 L42.0 129.8 L43.0 129.6 L44.0 129.4 L45.0 129.0 L46.0 128.5 L47.0 127.8 L48.0 126.9 L49.0 125.8 L50.0 124.5 L51.0 123.2 L52.0 121.9 L53.0 120.6 L54.0 119.7 L55.0 119.0 L56.0 118.8 L57.0 119.0 L58.0 119.7 L59.0 120.6 L60.0 121.9 L61.0 123.2 L62.0 124.5 L63.0 125.8 L64.0 126.9 L65.0 127.8 L66.0 128.5 L67.0 129.0 L68.0 129.4 L69.0 129.6 L70.0 129.8 L71.0 129.9 L72.0 129.9 L73.0 130.0 L74.0 130.0 L75.0 130.0 L76.0 130.0 L77.0 130.0 L78.0 130.1 L79.0 130.4 L80.0 131.7 L81.0 134.4 L82.0 137.8 L83.0 139.0 L84.0 135.7 L85.0 127.4 L86.0 114.0 L87.0 94.1 L88.0 69.2 L89.0 47.1 L90.0 38.2 L91.0 48.0 L92.0 72.2 L93.0 101.0 L94.0 126.0 L95.0 142.8 L96.0 150.2 L97.0 149.2 L98.0 143.5 L99.0 137.3 L100.0 133.0 L101.0 131.0 L102.0 130.2 L103.0 130.0 L104.0 130.0 L105.0 130.0 L106.0 130.0 L107.0 130.0 L108.0 130.0 L109.0 130.0 L110.0 130.0 L111.0 129.9 L112.0 129.9 L113.0 129.9 L114.0 129.8 L115.0 129.7 L116.0 129.6 L117.0 129.5 L118.0 129.3 L119.0 129.1 L120.0 128.8 L121.0 128.4 L122.0 128.0 L123.0 127.4 L124.0 126.8 L125.0 126.0 L126.0 125.1 L127.0 124.0 L128.0 122.8 L129.0 121.5 L130.0 120.1 L131.0 118.6 L132.0 117.1 L133.0 115.4 L134.0 113.8 L135.0 112.3 L136.0 110.8 L137.0 109.4 L138.0 108.3 L139.0 107.3 L140.0 106.6 L141.0 106.1 L142.0 106.0 L143.0 106.1 L144.0 106.6 L145.0 107.3 L146.0 108.3 L147.0 109.4 L148.0 110.8 L149.0 112.3 L150.0 113.8 L151.0 115.4 L152.0 117.1 L153.0 118.6 L154.0 120.1 L155.0 121.5 L156.0 122.8 L157.0 124.0 L158.0 125.1 L159.0 126.0 L160.0 126.8 L161.0 127.4 L162.0 128.0 L163.0 128.4 L164.0 128.8 L165.0 129.1 L166.0 129.3 L167.0 129.5 L168.0 129.6 L169.0 129.7 L170.0 129.8 L171.0 129.9 L172.0 129.9 L173.0 129.9 L174.0 130.0 L175.0 130.0 L176.0 130.0 L177.0 130.0 L178.0 130.0 L179.0 130.0 L180.0 130.0 L181.0 130.0 L182.0 130.0 L183.0 130.0 L184.0 130.0 L185.0 130.0 L186.0 130.0 L187.0 130.0 L188.0 130.0 L189.0 130.0 L190.0 130.0 L191.0 130.0 L192.0 130.0 L193.0 130.0 L194.0 130.0 L195.0 130.0 L196.0 130.0 L197.0 130.0 L198.0 130.0 L199.0 130.0 L200.0 129.9 L201.0 129.9 L202.0 129.8 L203.0 129.6 L204.0 129.4 L205.0 129.0 L206.0 128.5 L207.0 127.8 L208.0 126.9 L209.0 125.8 L210.0 124.5 L211.0 123.2 L212.0 121.9 L213.0 120.6 L214.0 119.7 L215.0 119.0 L216.0 118.8 L217.0 119.0 L218.0 119.7 L219.0 120.6 L220.0 121.9 L221.0 123.2 L222.0 124.5 L223.0 125.8 L224.0 126.9 L225.0 127.8 L226.0 128.5 L227.0 129.0 L228.0 129.4 L229.0 129.6 L230.0 129.8 L231.0 129.9 L232.0 129.9 L233.0 130.0 L234.0 130.0 L235.0 130.0 L236.0 130.0 L237.0 130.0 L238.0 130.1 L239.0 130.4 L240.0 131.7 L241.0 134.4 L242.0 137.8 L243.0 139.0 L244.0 135.7 L245.0 127.4 L246.0 114.0 L247.0 94.1 L248.0 69.2 L249.0 47.1 L250.0 38.2 L251.0 48.0 L252.0 72.2 L253.0 101.0 L254.0 126.0 L255.0 142.8 L256.0 150.2 L257.0 149.2 L258.0 143.5 L259.0 137.3 L260.0 133.0 L261.0 131.0 L262.0 130.2 L263.0 130.0 L264.0 130.0 L265.0 130.0 L266.0 130.0 L267.0 130.0 L268.0 130.0 L269.0 130.0 L270.0 130.0 L271.0 129.9 L272.0 129.9 L273.0 129.9 L274.0 129.8 L275.0 129.7 L276.0 129.6 L277.0 129.5 L278.0 129.3 L279.0 129.1 L280.0 128.8 L281.0 128.4 L282.0 128.0 L283.0 127.4 L284.0 126.8 L285.0 126.0 L286.0 125.1 L287.0 124.0 L288.0 122.8 L289.0 121.5 L290.0 120.1 L291.0 118.6 L292.0 117.1 L293.0 115.4 L294.0 113.8 L295.0 112.3 L296.0 110.8 L297.0 109.4 L298.0 108.3 L299.0 107.3 L300.0 106.6 L301.0 106.1 L302.0 106.0 L303.0 106.1 L304.0 106.6 L305.0 107.3 L306.0 108.3 L307.0 109.4 L308.0 110.8 L309.0 112.3 L310.0 113.8 L311.0 115.4 L312.0 117.1 L313.0 118.6 L314.0 120.1 L315.0 121.5 L316.0 122.8 L317.0 124.0 L318.0 125.1 L319.0 126.0 L320.0 126.8 L321.0 127.4 L322.0 128.0 L323.0 128.4 L324.0 128.8 L325.0 129.1 L326.0 129.3 L327.0 129.5 L328.0 129.6 L329.0 129.7 L330.0 129.8 L331.0 129.9 L332.0 129.9 L333.0 129.9 L334.0 130.0 L335.0 130.0 L336.0 130.0 L337.0 130.0 L338.0 130.0 L339.0 130.0 L340.0 130.0 L341.0 130.0 L342.0 130.0 L343.0 130.0 L344.0 130.0 L345.0 130.0 L346.0 130.0 L347.0 130.0 L348.0 130.0 L349.0 130.0 L350.0 130.0 L351.0 130.0 L352.0 130.0 L353.0 130.0 L354.0 130.0 L355.0 130.0 L356.0 130.0 L357.0 130.0 L358.0 130.0 L359.0 130.0 L360.0 129.9 L361.0 129.9 L362.0 129.8 L363.0 129.6 L364.0 129.4 L365.0 129.0 L366.0 128.5 L367.0 127.8 L368.0 126.9 L369.0 125.8 L370.0 124.5 L371.0 123.2 L372.0 121.9 L373.0 120.6 L374.0 119.7 L375.0 119.0 L376.0 118.8 L377.0 119.0 L378.0 119.7 L379.0 120.6 L380.0 121.9 L381.0 123.2 L382.0 124.5 L383.0 125.8 L384.0 126.9 L385.0 127.8 L386.0 128.5 L387.0 129.0 L388.0 129.4 L389.0 129.6 L390.0 129.8 L391.0 129.9 L392.0 129.9 L393.0 130.0 L394.0 130.0 L395.0 130.0 L396.0 130.0 L397.0 130.0 L398.0 130.1 L399.0 130.4 L400.0 131.7 L401.0 134.4 L402.0 137.8 L403.0 139.0 L404.0 135.7 L405.0 127.4 L406.0 114.0 L407.0 94.1 L408.0 69.2 L409.0 47.1 L410.0 38.2 L411.0 48.0 L412.0 72.2 L413.0 101.0 L414.0 126.0 L415.0 142.8 L416.0 150.2 L417.0 149.2 L418.0 143.5 L419.0 137.3 L420.0 133.0 L421.0 131.0 L422.0 130.2 L423.0 130.0 L424.0 130.0 L425.0 130.0 L426.0 130.0 L427.0 130.0 L428.0 130.0 L429.0 130.0 L430.0 130.0 L431.0 129.9 L432.0 129.9 L433.0 129.9 L434.0 129.8 L435.0 129.7 L436.0 129.6 L437.0 129.5 L438.0 129.3 L439.0 129.1 L440.0 128.8 L441.0 128.4 L442.0 128.0 L443.0 127.4 L444.0 126.8 L445.0 126.0 L446.0 125.1 L447.0 124.0 L448.0 122.8 L449.0 121.5 L450.0 120.1 L451.0 118.6 L452.0 117.1 L453.0 115.4 L454.0 113.8 L455.0 112.3 L456.0 110.8 L457.0 109.4 L458.0 108.3 L459.0 107.3 L460.0 106.6 L461.0 106.1 L462.0 106.0 L463.0 106.1 L464.0 106.6 L465.0 107.3 L466.0 108.3 L467.0 109.4 L468.0 110.8 L469.0 112.3 L470.0 113.8 L471.0 115.4 L472.0 117.0 L473.0 118.6 L474.0 120.0 L475.0 121.4 L476.0 122.5 L477.0 123.5 L478.0 124.3 L479.0 124.8 L480.0 124.9 L481.0 124.7 L482.0 124.0 L483.0 122.8 L484.0 120.9 L485.0 118.2 L486.0 114.7 L487.0 110.2 L488.0 104.8 L489.0 98.3 L490.0 90.9 L491.0 82.6 L492.0 73.8 L493.0 64.5 L494.0 55.3 L495.0 46.6 L496.0 38.7 L497.0 32.3 L498.0 27.6 L499.0 25.0 L500.0 24.9 L501.0 27.3 L502.0 32.3 L503.0 39.7 L504.0 49.2 L505.0 60.6 L506.0 73.3 L507.0 86.8 L508.0 100.5 L509.0 113.8 L510.0 126.3 L511.0 137.4 L512.0 146.8 L513.0 154.2 L514.0 159.4 L515.0 162.5 L516.0 163.7 L517.0 163.2 L518.0 161.3 L519.0 158.5 L520.0 155.0 L521.0 151.2 L522.0 147.5 L523.0 144.0 L524.0 141.0 L525.0 138.4 L526.0 136.4 L527.0 134.8 L528.0 133.7 L529.0 132.9 L530.0 132.5 L531.0 132.3 L532.0 132.3 L533.0 132.5 L534.0 132.8 L535.0 133.3 L536.0 133.8 L537.0 134.5 L538.0 135.2 L539.0 136.1 L540.0 137.0 L541.0 138.0 L542.0 139.1 L543.0 140.3 L544.0 141.5 L545.0 142.8 L546.0 144.2 L547.0 145.6 L548.0 147.0 L549.0 148.4 L550.0 149.8 L551.0 151.1 L552.0 152.4 L553.0 153.6 L554.0 154.7 L555.0 155.7 L556.0 156.5 L557.0 157.1 L558.0 157.6 L559.0 157.9 L560.0 158.0 L561.0 157.9 L562.0 157.6 L563.0 157.1 L564.0 156.5 L565.0 155.7 L566.0 154.7 L567.0 153.6 L568.0 152.4 L569.0 151.1 L570.0 149.8 L571.0 148.4 L572.0 147.0 L573.0 145.6 L574.0 144.2 L575.0 142.8 L576.0 141.5 L577.0 140.3 L578.0 139.1 L579.0 138.0 L580.0 137.0 L581.0 136.1 L582.0 135.2 L583.0 134.5 L584.0 133.8 L585.0 133.2 L586.0 132.7 L587.0 132.2 L588.0 131.8 L589.0 131.5 L590.0 131.2 L591.0 131.0 L592.0 130.8 L593.0 130.6 L594.0 130.5 L595.0 130.4 L596.0 130.3 L597.0 130.2 L598.0 130.2 L599.0 130.1 L600.0 130.1 L601.0 130.1 L602.0 130.1 L603.0 130.0 L604.0 130.0 L605.0 130.0 L606.0 130.0 L607.0 130.0 L608.0 130.0 L609.0 130.0 L610.0 130.0 L611.0 130.0 L612.0 130.0 L613.0 130.0 L614.0 130.0 L615.0 130.0 L616.0 130.0 L617.0 130.0 L618.0 130.0 L619.0 130.0 L620.0 130.0 L621.0 130.0 L622.0 130.0 L623.0 130.0 L624.0 130.0 L625.0 130.0 L626.0 130.0 L627.0 130.0 L628.0 130.0 L629.0 130.0 L630.0 130.0 L631.0 130.0 L632.0 130.0 L633.0 130.0 L634.0 130.0 L635.0 130.0 L636.0 130.0 L637.0 130.0 L638.0 130.0 L639.0 130.0 L640.0 130.0 L641.0 130.0 L642.0 130.0 L643.0 130.0 L644.0 130.0 L645.0 130.0 L646.0 130.0 L647.0 130.0 L648.0 130.0 L649.0 130.0 L650.0 130.0 L651.0 130.0 L652.0 130.0 L653.0 130.0 L654.0 130.0 L655.0 130.0 L656.0 130.0 L657.0 130.0 L658.0 130.0 L659.0 130.0 L660.0 130.0 L661.0 130.0 L662.0 130.0 L663.0 130.0 L664.0 130.0 L665.0 130.0 L666.0 130.0 L667.0 130.0 L668.0 130.0 L669.0 130.0 L670.0 130.0 L671.0 130.0 L672.0 130.0 L673.0 130.0 L674.0 130.0 L675.0 130.0 L676.0 130.0 L677.0 130.0 L678.0 130.0 L679.0 130.0 L680.0 129.9 L681.0 129.9 L682.0 129.8 L683.0 129.6 L684.0 129.4 L685.0 129.0 L686.0 128.5 L687.0 127.8 L688.0 126.9 L689.0 125.8 L690.0 124.5 L691.0 123.2 L692.0 121.9 L693.0 120.6 L694.0 119.7 L695.0 119.0 L696.0 118.8 L697.0 119.0 L698.0 119.7 L699.0 120.6 L700.0 121.9 L701.0 123.2 L702.0 124.5 L703.0 125.8 L704.0 126.9 L705.0 127.8 L706.0 128.5 L707.0 129.0 L708.0 129.4 L709.0 129.6 L710.0 129.8 L711.0 129.9 L712.0 129.9 L713.0 130.0 L714.0 130.0 L715.0 130.0 L716.0 130.0 L717.0 130.0 L718.0 130.1 L719.0 130.4 L720.0 131.7 L721.0 134.4 L722.0 137.8 L723.0 139.0 L724.0 135.7 L725.0 127.4 L726.0 114.0 L727.0 94.1 L728.0 69.2 L729.0 47.1 L730.0 38.2 L731.0 48.0 L732.0 72.2 L733.0 101.0 L734.0 126.0 L735.0 142.8 L736.0 150.2 L737.0 149.2 L738.0 143.5 L739.0 137.3 L740.0 133.0 L741.0 131.0 L742.0 130.2 L743.0 130.0 L744.0 130.0 L745.0 130.0 L746.0 130.0 L747.0 130.0 L748.0 130.0 L749.0 130.0 L750.0 130.0 L751.0 129.9 L752.0 129.9 L753.0 129.9 L754.0 129.8 L755.0 129.7 L756.0 129.6 L757.0 129.5 L758.0 129.3 L759.0 129.1 L760.0 128.8 L761.0 128.4 L762.0 128.0 L763.0 127.4 L764.0 126.8 L765.0 126.0 L766.0 125.1 L767.0 124.0 L768.0 122.8 L769.0 121.5 L770.0 120.1 L771.0 118.6 L772.0 117.1 L773.0 115.4 L774.0 113.8 L775.0 112.3 L776.0 110.8 L777.0 109.4 L778.0 108.3 L779.0 107.3 L780.0 106.6 L781.0 106.1 L782.0 106.0 L783.0 106.1 L784.0 106.6 L785.0 107.3 L786.0 108.3 L787.0 109.4 L788.0 110.8 L789.0 112.3 L790.0 113.8 L791.0 115.4 L792.0 117.1 L793.0 118.6 L794.0 120.1 L795.0 121.5 L796.0 122.8 L797.0 124.0 L798.0 125.1 L799.0 126.0 L800.0 126.8 L801.0 127.4 L802.0 128.0 L803.0 128.4 L804.0 128.8 L805.0 129.1 L806.0 129.3 L807.0 129.5 L808.0 129.6 L809.0 129.7 L810.0 129.8 L811.0 129.9 L812.0 129.9 L813.0 129.9 L814.0 130.0 L815.0 130.0 L816.0 130.0 L817.0 130.0 L818.0 130.0 L819.0 130.0 L820.0 130.0 L821.0 130.0 L822.0 130.0 L823.0 130.0 L824.0 130.0 L825.0 130.0 L826.0 130.0 L827.0 130.0 L828.0 130.0 L829.0 130.0 L830.0 130.0 L831.0 130.0 L832.0 130.0 L833.0 130.0 L834.0 130.0 L835.0 130.0 L836.0 130.0 L837.0 130.0 L838.0 130.0 L839.0 130.0 L840.0 129.9 L841.0 129.9 L842.0 129.8 L843.0 129.6 L844.0 129.4 L845.0 129.0 L846.0 128.5 L847.0 127.8 L848.0 126.9 L849.0 125.8 L850.0 124.5 L851.0 123.2 L852.0 121.9 L853.0 120.6 L854.0 119.7 L855.0 119.0 L856.0 118.8 L857.0 119.0 L858.0 119.7 L859.0 120.6 L860.0 121.9 L861.0 123.2 L862.0 124.5 L863.0 125.8 L864.0 126.9 L865.0 127.8 L866.0 128.5 L867.0 129.0 L868.0 129.4 L869.0 129.6 L870.0 129.8 L871.0 129.9 L872.0 129.9 L873.0 130.0 L874.0 130.0 L875.0 130.0 L876.0 130.0 L877.0 130.0 L878.0 130.1 L879.0 130.4 L880.0 131.7 L881.0 134.4 L882.0 137.8 L883.0 139.0 L884.0 135.7 L885.0 127.4 L886.0 114.0 L887.0 94.1 L888.0 69.2 L889.0 47.1 L890.0 38.2 L891.0 48.0 L892.0 72.2 L893.0 101.0 L894.0 126.0 L895.0 142.8 L896.0 150.2 L897.0 149.2 L898.0 143.5 L899.0 137.3 L900.0 133.0 L901.0 131.0 L902.0 130.2 L903.0 130.0 L904.0 130.0 L905.0 130.0 L906.0 130.0 L907.0 130.0 L908.0 130.0 L909.0 130.0 L910.0 130.0 L911.0 129.9 L912.0 129.9 L913.0 129.9 L914.0 129.8 L915.0 129.7 L916.0 129.6 L917.0 129.5 L918.0 129.3 L919.0 129.1 L920.0 128.8 L921.0 128.4 L922.0 128.0 L923.0 127.4 L924.0 126.8 L925.0 126.0 L926.0 125.1 L927.0 124.0 L928.0 122.8 L929.0 121.5 L930.0 120.1 L931.0 118.6 L932.0 117.1 L933.0 115.4 L934.0 113.8 L935.0 112.3 L936.0 110.8 L937.0 109.4 L938.0 108.3 L939.0 107.3 L940.0 106.6 L941.0 106.1 L942.0 106.0 L943.0 106.1 L944.0 106.6 L945.0 107.3 L946.0 108.3 L947.0 109.4 L948.0 110.8 L949.0 112.3 L950.0 113.8 L951.0 115.4 L952.0 117.1 L953.0 118.6 L954.0 120.1 L955.0 121.5 L956.0 122.8 L957.0 124.0 L958.0 125.1 L959.0 126.0 L960.0 126.8 L961.0 127.4 L962.0 128.0 L963.0 128.4 L964.0 128.8 L965.0 129.1 L966.0 129.3 L967.0 129.5 L968.0 129.6 L969.0 129.7 L970.0 129.8 L971.0 129.9 L972.0 129.9 L973.0 129.9 L974.0 130.0 L975.0 130.0 L976.0 130.0 L977.0 130.0 L978.0 130.0 L979.0 130.0 L980.0 130.0 L981.0 130.0 L982.0 130.0 L983.0 130.0 L984.0 130.0 L985.0 130.0 L986.0 130.0 L987.0 130.0 L988.0 130.0 L989.0 130.0 L990.0 130.0 L991.0 130.0 L992.0 130.0 L993.0 130.0 L994.0 130.0 L995.0 130.0 L996.0 130.0 L997.0 130.0 L998.0 130.0 L999.0 130.0 L1000.0 129.9 L1001.0 129.9 L1002.0 129.8 L1003.0 129.6 L1004.0 129.4 L1005.0 129.0 L1006.0 128.5 L1007.0 127.8 L1008.0 126.9 L1009.0 125.8 L1010.0 124.5 L1011.0 123.2 L1012.0 121.9 L1013.0 120.6 L1014.0 119.7 L1015.0 119.0 L1016.0 118.8 L1017.0 119.0 L1018.0 119.7 L1019.0 120.6 L1020.0 121.9 L1021.0 123.2 L1022.0 124.5 L1023.0 125.8 L1024.0 126.9 L1025.0 127.8 L1026.0 128.5 L1027.0 129.0 L1028.0 129.4 L1029.0 129.6 L1030.0 129.8 L1031.0 129.9 L1032.0 129.9 L1033.0 130.0 L1034.0 130.0 L1035.0 130.0 L1036.0 130.0 L1037.0 130.0 L1038.0 130.1 L1039.0 130.4 L1040.0 131.7 L1041.0 134.4 L1042.0 137.8 L1043.0 139.0 L1044.0 135.7 L1045.0 127.4 L1046.0 114.0 L1047.0 94.1 L1048.0 69.2 L1049.0 47.1 L1050.0 38.2 L1051.0 48.0 L1052.0 72.2 L1053.0 101.0 L1054.0 126.0 L1055.0 142.8 L1056.0 150.2 L1057.0 149.2 L1058.0 143.5 L1059.0 137.3 L1060.0 133.0 L1061.0 131.0 L1062.0 130.2 L1063.0 130.0 L1064.0 130.0 L1065.0 130.0 L1066.0 130.0 L1067.0 130.0 L1068.0 130.0 L1069.0 130.0 L1070.0 130.0 L1071.0 129.9 L1072.0 129.9 L1073.0 129.9 L1074.0 129.8 L1075.0 129.7 L1076.0 129.6 L1077.0 129.5 L1078.0 129.3 L1079.0 129.1 L1080.0 128.8 L1081.0 128.4 L1082.0 128.0 L1083.0 127.4 L1084.0 126.8 L1085.0 126.0 L1086.0 125.1 L1087.0 124.0 L1088.0 122.8 L1089.0 121.5 L1090.0 120.1 L1091.0 118.6 L1092.0 117.1 L1093.0 115.4 L1094.0 113.8 L1095.0 112.3 L1096.0 110.8 L1097.0 109.4 L1098.0 108.3 L1099.0 107.3 L1100.0 106.6 L1101.0 106.1 L1102.0 106.0 L1103.0 106.1 L1104.0 106.6 L1105.0 107.3 L1106.0 108.3 L1107.0 109.4 L1108.0 110.8 L1109.0 112.3 L1110.0 113.8 L1111.0 115.4 L1112.0 117.1 L1113.0 118.6 L1114.0 120.1 L1115.0 121.5 L1116.0 122.8 L1117.0 124.0 L1118.0 125.1 L1119.0 126.0 L1120.0 126.8 L1121.0 127.4 L1122.0 128.0 L1123.0 128.4 L1124.0 128.8 L1125.0 129.1 L1126.0 129.3 L1127.0 129.5 L1128.0 129.6 L1129.0 129.7 L1130.0 129.8 L1131.0 129.9 L1132.0 129.9 L1133.0 129.9 L1134.0 130.0 L1135.0 130.0 L1136.0 130.0 L1137.0 130.0 L1138.0 130.0 L1139.0 130.0 L1140.0 130.0 L1141.0 130.0 L1142.0 130.0 L1143.0 130.0 L1144.0 130.0 L1145.0 130.0 L1146.0 130.0 L1147.0 130.0 L1148.0 130.0 L1149.0 130.0 L1150.0 130.0 L1151.0 130.0 L1152.0 130.0 L1153.0 130.0 L1154.0 130.0 L1155.0 130.0 L1156.0 130.0 L1157.0 130.0 L1158.0 130.0 L1159.0 130.0 L1160.0 130.0 L1161.0 130.0 L1162.0 130.0 L1163.0 130.0 L1164.0 130.0 L1165.0 130.0 L1166.0 130.0 L1167.0 130.0 L1168.0 130.0 L1169.0 130.0 L1170.0 130.0 L1171.0 130.0 L1172.0 130.0 L1173.0 130.0 L1174.0 130.0 L1175.0 130.0 L1176.0 130.0 L1177.0 130.0 L1178.0 130.0 L1179.0 130.0 L1180.0 130.0 L1181.0 130.0 L1182.0 130.0 L1183.0 130.0 L1184.0 130.0 L1185.0 130.0 L1186.0 130.0 L1187.0 130.0 L1188.0 130.0 L1189.0 130.0 L1190.0 130.0 L1191.0 130.0 L1192.0 130.0 L1193.0 130.0 L1194.0 130.0 L1195.0 130.0 L1196.0 130.0 L1197.0 130.0 L1198.0 130.0 L1199.0 130.0 L1200.0 130.0"/>
+                  <text class="lbl" x="500" y="18" text-anchor="middle">battement prématuré</text>
+                  <g class="rr">
+                    <line x1="90" y1="192" x2="1050" y2="192"/>
+                    <line x1="90" y1="186" x2="90" y2="198"/><line x1="250" y1="186" x2="250" y2="198"/><line x1="410" y1="186" x2="410" y2="198"/><line x1="500" y1="186" x2="500" y2="198"/><line x1="730" y1="186" x2="730" y2="198"/><line x1="890" y1="186" x2="890" y2="198"/><line x1="1050" y1="186" x2="1050" y2="198"/>
+                    <text x="170" y="210" text-anchor="middle">800 ms</text>
+                    <text x="330" y="210" text-anchor="middle">800 ms</text>
+                    <text x="455" y="210" text-anchor="middle">450</text>
+                    <text x="615" y="210" text-anchor="middle">1150 ms</text>
+                    <text x="810" y="210" text-anchor="middle">800 ms</text>
+                    <text x="970" y="210" text-anchor="middle">800 ms</text>
                   </g>
-                  <text x="112" y="31" text-anchor="end">XGBoost</text>
-                  <rect class="bar-top" x="120" y="16" width="214.6" height="22"/>
-                  <text class="val" x="340" y="31">0,74</text>
-                  <text x="112" y="67" text-anchor="end">MiniRocket</text>
-                  <rect class="bar" x="120" y="52" width="200.1" height="22"/>
-                  <text class="val" x="326" y="67">0,69</text>
-                  <text x="112" y="103" text-anchor="end">CNN 1D + LSTM</text>
-                  <rect class="bar" x="120" y="88" width="147.9" height="22"/>
-                  <text class="val" x="274" y="103">0,51</text>
-                  <text x="120" y="142" text-anchor="middle">0</text>
-                  <text x="192.5" y="142" text-anchor="middle">0,25</text>
-                  <text x="265" y="142" text-anchor="middle">0,5</text>
-                  <text x="337.5" y="142" text-anchor="middle">0,75</text>
-                  <text x="410" y="142" text-anchor="end">1</text>
                 </svg>
               </div>
-              <figcaption>Exactitude de classification, résultats préliminaires obtenus avant la séparation par patient.</figcaption>
-              <p class="note">Livrables : carnet Jupyter, rapport PDF au gabarit de stage de l'UQTR et présentation sur MiniRocket.</p>
-            </figure>
-          </div>
-          <figure class="strip" aria-labelledby="strip-cap">
-            <div class="strip-frame">
-              <div class="strip-head">
-                <span class="label">Dérivation II · simulée</span>
-                <span class="label">25 mm/s · 10 mm/mV</span>
-              </div>
-              <svg viewBox="0 0 1200 214" role="img" aria-labelledby="ecg-title ecg-desc">
-                <title id="ecg-title">Tracé ECG avec une extrasystole ventriculaire</title>
-                <desc id="ecg-desc">Six secondes de rythme sinusal à intervalles RR de 800 ms, interrompu par une extrasystole ventriculaire précoce à 450 ms suivie d'une pause compensatoire de 1150 ms.</desc>
-                <defs>
-                  <pattern id="g-minor" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8 0H0V8" fill="none" class="grid-minor" stroke-width="0.6"/></pattern>
-                  <pattern id="g-major" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="url(#g-minor)"/><path d="M40 0H0V40" fill="none" class="grid-major" stroke-width="1"/></pattern>
-                </defs>
-                <rect width="1200" height="214" fill="url(#g-major)"/>
-                <rect class="pvc-band" x="468" y="0" width="64" height="214"/>
-                <path class="trace" pathLength="1" d="M0.0 130.0 L1.0 130.0 L2.0 130.0 L3.0 130.0 L4.0 130.0 L5.0 130.0 L6.0 130.0 L7.0 130.0 L8.0 130.0 L9.0 130.0 L10.0 130.0 L11.0 130.0 L12.0 130.0 L13.0 130.0 L14.0 130.0 L15.0 130.0 L16.0 130.0 L17.0 130.0 L18.0 130.0 L19.0 130.0 L20.0 130.0 L21.0 130.0 L22.0 130.0 L23.0 130.0 L24.0 130.0 L25.0 130.0 L26.0 130.0 L27.0 130.0 L28.0 130.0 L29.0 130.0 L30.0 130.0 L31.0 130.0 L32.0 130.0 L33.0 130.0 L34.0 130.0 L35.0 130.0 L36.0 130.0 L37.0 130.0 L38.0 130.0 L39.0 130.0 L40.0 129.9 L41.0 129.9 L42.0 129.8 L43.0 129.6 L44.0 129.4 L45.0 129.0 L46.0 128.5 L47.0 127.8 L48.0 126.9 L49.0 125.8 L50.0 124.5 L51.0 123.2 L52.0 121.9 L53.0 120.6 L54.0 119.7 L55.0 119.0 L56.0 118.8 L57.0 119.0 L58.0 119.7 L59.0 120.6 L60.0 121.9 L61.0 123.2 L62.0 124.5 L63.0 125.8 L64.0 126.9 L65.0 127.8 L66.0 128.5 L67.0 129.0 L68.0 129.4 L69.0 129.6 L70.0 129.8 L71.0 129.9 L72.0 129.9 L73.0 130.0 L74.0 130.0 L75.0 130.0 L76.0 130.0 L77.0 130.0 L78.0 130.1 L79.0 130.4 L80.0 131.7 L81.0 134.4 L82.0 137.8 L83.0 139.0 L84.0 135.7 L85.0 127.4 L86.0 114.0 L87.0 94.1 L88.0 69.2 L89.0 47.1 L90.0 38.2 L91.0 48.0 L92.0 72.2 L93.0 101.0 L94.0 126.0 L95.0 142.8 L96.0 150.2 L97.0 149.2 L98.0 143.5 L99.0 137.3 L100.0 133.0 L101.0 131.0 L102.0 130.2 L103.0 130.0 L104.0 130.0 L105.0 130.0 L106.0 130.0 L107.0 130.0 L108.0 130.0 L109.0 130.0 L110.0 130.0 L111.0 129.9 L112.0 129.9 L113.0 129.9 L114.0 129.8 L115.0 129.7 L116.0 129.6 L117.0 129.5 L118.0 129.3 L119.0 129.1 L120.0 128.8 L121.0 128.4 L122.0 128.0 L123.0 127.4 L124.0 126.8 L125.0 126.0 L126.0 125.1 L127.0 124.0 L128.0 122.8 L129.0 121.5 L130.0 120.1 L131.0 118.6 L132.0 117.1 L133.0 115.4 L134.0 113.8 L135.0 112.3 L136.0 110.8 L137.0 109.4 L138.0 108.3 L139.0 107.3 L140.0 106.6 L141.0 106.1 L142.0 106.0 L143.0 106.1 L144.0 106.6 L145.0 107.3 L146.0 108.3 L147.0 109.4 L148.0 110.8 L149.0 112.3 L150.0 113.8 L151.0 115.4 L152.0 117.1 L153.0 118.6 L154.0 120.1 L155.0 121.5 L156.0 122.8 L157.0 124.0 L158.0 125.1 L159.0 126.0 L160.0 126.8 L161.0 127.4 L162.0 128.0 L163.0 128.4 L164.0 128.8 L165.0 129.1 L166.0 129.3 L167.0 129.5 L168.0 129.6 L169.0 129.7 L170.0 129.8 L171.0 129.9 L172.0 129.9 L173.0 129.9 L174.0 130.0 L175.0 130.0 L176.0 130.0 L177.0 130.0 L178.0 130.0 L179.0 130.0 L180.0 130.0 L181.0 130.0 L182.0 130.0 L183.0 130.0 L184.0 130.0 L185.0 130.0 L186.0 130.0 L187.0 130.0 L188.0 130.0 L189.0 130.0 L190.0 130.0 L191.0 130.0 L192.0 130.0 L193.0 130.0 L194.0 130.0 L195.0 130.0 L196.0 130.0 L197.0 130.0 L198.0 130.0 L199.0 130.0 L200.0 129.9 L201.0 129.9 L202.0 129.8 L203.0 129.6 L204.0 129.4 L205.0 129.0 L206.0 128.5 L207.0 127.8 L208.0 126.9 L209.0 125.8 L210.0 124.5 L211.0 123.2 L212.0 121.9 L213.0 120.6 L214.0 119.7 L215.0 119.0 L216.0 118.8 L217.0 119.0 L218.0 119.7 L219.0 120.6 L220.0 121.9 L221.0 123.2 L222.0 124.5 L223.0 125.8 L224.0 126.9 L225.0 127.8 L226.0 128.5 L227.0 129.0 L228.0 129.4 L229.0 129.6 L230.0 129.8 L231.0 129.9 L232.0 129.9 L233.0 130.0 L234.0 130.0 L235.0 130.0 L236.0 130.0 L237.0 130.0 L238.0 130.1 L239.0 130.4 L240.0 131.7 L241.0 134.4 L242.0 137.8 L243.0 139.0 L244.0 135.7 L245.0 127.4 L246.0 114.0 L247.0 94.1 L248.0 69.2 L249.0 47.1 L250.0 38.2 L251.0 48.0 L252.0 72.2 L253.0 101.0 L254.0 126.0 L255.0 142.8 L256.0 150.2 L257.0 149.2 L258.0 143.5 L259.0 137.3 L260.0 133.0 L261.0 131.0 L262.0 130.2 L263.0 130.0 L264.0 130.0 L265.0 130.0 L266.0 130.0 L267.0 130.0 L268.0 130.0 L269.0 130.0 L270.0 130.0 L271.0 129.9 L272.0 129.9 L273.0 129.9 L274.0 129.8 L275.0 129.7 L276.0 129.6 L277.0 129.5 L278.0 129.3 L279.0 129.1 L280.0 128.8 L281.0 128.4 L282.0 128.0 L283.0 127.4 L284.0 126.8 L285.0 126.0 L286.0 125.1 L287.0 124.0 L288.0 122.8 L289.0 121.5 L290.0 120.1 L291.0 118.6 L292.0 117.1 L293.0 115.4 L294.0 113.8 L295.0 112.3 L296.0 110.8 L297.0 109.4 L298.0 108.3 L299.0 107.3 L300.0 106.6 L301.0 106.1 L302.0 106.0 L303.0 106.1 L304.0 106.6 L305.0 107.3 L306.0 108.3 L307.0 109.4 L308.0 110.8 L309.0 112.3 L310.0 113.8 L311.0 115.4 L312.0 117.1 L313.0 118.6 L314.0 120.1 L315.0 121.5 L316.0 122.8 L317.0 124.0 L318.0 125.1 L319.0 126.0 L320.0 126.8 L321.0 127.4 L322.0 128.0 L323.0 128.4 L324.0 128.8 L325.0 129.1 L326.0 129.3 L327.0 129.5 L328.0 129.6 L329.0 129.7 L330.0 129.8 L331.0 129.9 L332.0 129.9 L333.0 129.9 L334.0 130.0 L335.0 130.0 L336.0 130.0 L337.0 130.0 L338.0 130.0 L339.0 130.0 L340.0 130.0 L341.0 130.0 L342.0 130.0 L343.0 130.0 L344.0 130.0 L345.0 130.0 L346.0 130.0 L347.0 130.0 L348.0 130.0 L349.0 130.0 L350.0 130.0 L351.0 130.0 L352.0 130.0 L353.0 130.0 L354.0 130.0 L355.0 130.0 L356.0 130.0 L357.0 130.0 L358.0 130.0 L359.0 130.0 L360.0 129.9 L361.0 129.9 L362.0 129.8 L363.0 129.6 L364.0 129.4 L365.0 129.0 L366.0 128.5 L367.0 127.8 L368.0 126.9 L369.0 125.8 L370.0 124.5 L371.0 123.2 L372.0 121.9 L373.0 120.6 L374.0 119.7 L375.0 119.0 L376.0 118.8 L377.0 119.0 L378.0 119.7 L379.0 120.6 L380.0 121.9 L381.0 123.2 L382.0 124.5 L383.0 125.8 L384.0 126.9 L385.0 127.8 L386.0 128.5 L387.0 129.0 L388.0 129.4 L389.0 129.6 L390.0 129.8 L391.0 129.9 L392.0 129.9 L393.0 130.0 L394.0 130.0 L395.0 130.0 L396.0 130.0 L397.0 130.0 L398.0 130.1 L399.0 130.4 L400.0 131.7 L401.0 134.4 L402.0 137.8 L403.0 139.0 L404.0 135.7 L405.0 127.4 L406.0 114.0 L407.0 94.1 L408.0 69.2 L409.0 47.1 L410.0 38.2 L411.0 48.0 L412.0 72.2 L413.0 101.0 L414.0 126.0 L415.0 142.8 L416.0 150.2 L417.0 149.2 L418.0 143.5 L419.0 137.3 L420.0 133.0 L421.0 131.0 L422.0 130.2 L423.0 130.0 L424.0 130.0 L425.0 130.0 L426.0 130.0 L427.0 130.0 L428.0 130.0 L429.0 130.0 L430.0 130.0 L431.0 129.9 L432.0 129.9 L433.0 129.9 L434.0 129.8 L435.0 129.7 L436.0 129.6 L437.0 129.5 L438.0 129.3 L439.0 129.1 L440.0 128.8 L441.0 128.4 L442.0 128.0 L443.0 127.4 L444.0 126.8 L445.0 126.0 L446.0 125.1 L447.0 124.0 L448.0 122.8 L449.0 121.5 L450.0 120.1 L451.0 118.6 L452.0 117.1 L453.0 115.4 L454.0 113.8 L455.0 112.3 L456.0 110.8 L457.0 109.4 L458.0 108.3 L459.0 107.3 L460.0 106.6 L461.0 106.1 L462.0 106.0 L463.0 106.1 L464.0 106.6 L465.0 107.3 L466.0 108.3 L467.0 109.4 L468.0 110.8 L469.0 112.3 L470.0 113.8 L471.0 115.4 L472.0 117.0 L473.0 118.6 L474.0 120.0 L475.0 121.4 L476.0 122.5 L477.0 123.5 L478.0 124.3 L479.0 124.8 L480.0 124.9 L481.0 124.7 L482.0 124.0 L483.0 122.8 L484.0 120.9 L485.0 118.2 L486.0 114.7 L487.0 110.2 L488.0 104.8 L489.0 98.3 L490.0 90.9 L491.0 82.6 L492.0 73.8 L493.0 64.5 L494.0 55.3 L495.0 46.6 L496.0 38.7 L497.0 32.3 L498.0 27.6 L499.0 25.0 L500.0 24.9 L501.0 27.3 L502.0 32.3 L503.0 39.7 L504.0 49.2 L505.0 60.6 L506.0 73.3 L507.0 86.8 L508.0 100.5 L509.0 113.8 L510.0 126.3 L511.0 137.4 L512.0 146.8 L513.0 154.2 L514.0 159.4 L515.0 162.5 L516.0 163.7 L517.0 163.2 L518.0 161.3 L519.0 158.5 L520.0 155.0 L521.0 151.2 L522.0 147.5 L523.0 144.0 L524.0 141.0 L525.0 138.4 L526.0 136.4 L527.0 134.8 L528.0 133.7 L529.0 132.9 L530.0 132.5 L531.0 132.3 L532.0 132.3 L533.0 132.5 L534.0 132.8 L535.0 133.3 L536.0 133.8 L537.0 134.5 L538.0 135.2 L539.0 136.1 L540.0 137.0 L541.0 138.0 L542.0 139.1 L543.0 140.3 L544.0 141.5 L545.0 142.8 L546.0 144.2 L547.0 145.6 L548.0 147.0 L549.0 148.4 L550.0 149.8 L551.0 151.1 L552.0 152.4 L553.0 153.6 L554.0 154.7 L555.0 155.7 L556.0 156.5 L557.0 157.1 L558.0 157.6 L559.0 157.9 L560.0 158.0 L561.0 157.9 L562.0 157.6 L563.0 157.1 L564.0 156.5 L565.0 155.7 L566.0 154.7 L567.0 153.6 L568.0 152.4 L569.0 151.1 L570.0 149.8 L571.0 148.4 L572.0 147.0 L573.0 145.6 L574.0 144.2 L575.0 142.8 L576.0 141.5 L577.0 140.3 L578.0 139.1 L579.0 138.0 L580.0 137.0 L581.0 136.1 L582.0 135.2 L583.0 134.5 L584.0 133.8 L585.0 133.2 L586.0 132.7 L587.0 132.2 L588.0 131.8 L589.0 131.5 L590.0 131.2 L591.0 131.0 L592.0 130.8 L593.0 130.6 L594.0 130.5 L595.0 130.4 L596.0 130.3 L597.0 130.2 L598.0 130.2 L599.0 130.1 L600.0 130.1 L601.0 130.1 L602.0 130.1 L603.0 130.0 L604.0 130.0 L605.0 130.0 L606.0 130.0 L607.0 130.0 L608.0 130.0 L609.0 130.0 L610.0 130.0 L611.0 130.0 L612.0 130.0 L613.0 130.0 L614.0 130.0 L615.0 130.0 L616.0 130.0 L617.0 130.0 L618.0 130.0 L619.0 130.0 L620.0 130.0 L621.0 130.0 L622.0 130.0 L623.0 130.0 L624.0 130.0 L625.0 130.0 L626.0 130.0 L627.0 130.0 L628.0 130.0 L629.0 130.0 L630.0 130.0 L631.0 130.0 L632.0 130.0 L633.0 130.0 L634.0 130.0 L635.0 130.0 L636.0 130.0 L637.0 130.0 L638.0 130.0 L639.0 130.0 L640.0 130.0 L641.0 130.0 L642.0 130.0 L643.0 130.0 L644.0 130.0 L645.0 130.0 L646.0 130.0 L647.0 130.0 L648.0 130.0 L649.0 130.0 L650.0 130.0 L651.0 130.0 L652.0 130.0 L653.0 130.0 L654.0 130.0 L655.0 130.0 L656.0 130.0 L657.0 130.0 L658.0 130.0 L659.0 130.0 L660.0 130.0 L661.0 130.0 L662.0 130.0 L663.0 130.0 L664.0 130.0 L665.0 130.0 L666.0 130.0 L667.0 130.0 L668.0 130.0 L669.0 130.0 L670.0 130.0 L671.0 130.0 L672.0 130.0 L673.0 130.0 L674.0 130.0 L675.0 130.0 L676.0 130.0 L677.0 130.0 L678.0 130.0 L679.0 130.0 L680.0 129.9 L681.0 129.9 L682.0 129.8 L683.0 129.6 L684.0 129.4 L685.0 129.0 L686.0 128.5 L687.0 127.8 L688.0 126.9 L689.0 125.8 L690.0 124.5 L691.0 123.2 L692.0 121.9 L693.0 120.6 L694.0 119.7 L695.0 119.0 L696.0 118.8 L697.0 119.0 L698.0 119.7 L699.0 120.6 L700.0 121.9 L701.0 123.2 L702.0 124.5 L703.0 125.8 L704.0 126.9 L705.0 127.8 L706.0 128.5 L707.0 129.0 L708.0 129.4 L709.0 129.6 L710.0 129.8 L711.0 129.9 L712.0 129.9 L713.0 130.0 L714.0 130.0 L715.0 130.0 L716.0 130.0 L717.0 130.0 L718.0 130.1 L719.0 130.4 L720.0 131.7 L721.0 134.4 L722.0 137.8 L723.0 139.0 L724.0 135.7 L725.0 127.4 L726.0 114.0 L727.0 94.1 L728.0 69.2 L729.0 47.1 L730.0 38.2 L731.0 48.0 L732.0 72.2 L733.0 101.0 L734.0 126.0 L735.0 142.8 L736.0 150.2 L737.0 149.2 L738.0 143.5 L739.0 137.3 L740.0 133.0 L741.0 131.0 L742.0 130.2 L743.0 130.0 L744.0 130.0 L745.0 130.0 L746.0 130.0 L747.0 130.0 L748.0 130.0 L749.0 130.0 L750.0 130.0 L751.0 129.9 L752.0 129.9 L753.0 129.9 L754.0 129.8 L755.0 129.7 L756.0 129.6 L757.0 129.5 L758.0 129.3 L759.0 129.1 L760.0 128.8 L761.0 128.4 L762.0 128.0 L763.0 127.4 L764.0 126.8 L765.0 126.0 L766.0 125.1 L767.0 124.0 L768.0 122.8 L769.0 121.5 L770.0 120.1 L771.0 118.6 L772.0 117.1 L773.0 115.4 L774.0 113.8 L775.0 112.3 L776.0 110.8 L777.0 109.4 L778.0 108.3 L779.0 107.3 L780.0 106.6 L781.0 106.1 L782.0 106.0 L783.0 106.1 L784.0 106.6 L785.0 107.3 L786.0 108.3 L787.0 109.4 L788.0 110.8 L789.0 112.3 L790.0 113.8 L791.0 115.4 L792.0 117.1 L793.0 118.6 L794.0 120.1 L795.0 121.5 L796.0 122.8 L797.0 124.0 L798.0 125.1 L799.0 126.0 L800.0 126.8 L801.0 127.4 L802.0 128.0 L803.0 128.4 L804.0 128.8 L805.0 129.1 L806.0 129.3 L807.0 129.5 L808.0 129.6 L809.0 129.7 L810.0 129.8 L811.0 129.9 L812.0 129.9 L813.0 129.9 L814.0 130.0 L815.0 130.0 L816.0 130.0 L817.0 130.0 L818.0 130.0 L819.0 130.0 L820.0 130.0 L821.0 130.0 L822.0 130.0 L823.0 130.0 L824.0 130.0 L825.0 130.0 L826.0 130.0 L827.0 130.0 L828.0 130.0 L829.0 130.0 L830.0 130.0 L831.0 130.0 L832.0 130.0 L833.0 130.0 L834.0 130.0 L835.0 130.0 L836.0 130.0 L837.0 130.0 L838.0 130.0 L839.0 130.0 L840.0 129.9 L841.0 129.9 L842.0 129.8 L843.0 129.6 L844.0 129.4 L845.0 129.0 L846.0 128.5 L847.0 127.8 L848.0 126.9 L849.0 125.8 L850.0 124.5 L851.0 123.2 L852.0 121.9 L853.0 120.6 L854.0 119.7 L855.0 119.0 L856.0 118.8 L857.0 119.0 L858.0 119.7 L859.0 120.6 L860.0 121.9 L861.0 123.2 L862.0 124.5 L863.0 125.8 L864.0 126.9 L865.0 127.8 L866.0 128.5 L867.0 129.0 L868.0 129.4 L869.0 129.6 L870.0 129.8 L871.0 129.9 L872.0 129.9 L873.0 130.0 L874.0 130.0 L875.0 130.0 L876.0 130.0 L877.0 130.0 L878.0 130.1 L879.0 130.4 L880.0 131.7 L881.0 134.4 L882.0 137.8 L883.0 139.0 L884.0 135.7 L885.0 127.4 L886.0 114.0 L887.0 94.1 L888.0 69.2 L889.0 47.1 L890.0 38.2 L891.0 48.0 L892.0 72.2 L893.0 101.0 L894.0 126.0 L895.0 142.8 L896.0 150.2 L897.0 149.2 L898.0 143.5 L899.0 137.3 L900.0 133.0 L901.0 131.0 L902.0 130.2 L903.0 130.0 L904.0 130.0 L905.0 130.0 L906.0 130.0 L907.0 130.0 L908.0 130.0 L909.0 130.0 L910.0 130.0 L911.0 129.9 L912.0 129.9 L913.0 129.9 L914.0 129.8 L915.0 129.7 L916.0 129.6 L917.0 129.5 L918.0 129.3 L919.0 129.1 L920.0 128.8 L921.0 128.4 L922.0 128.0 L923.0 127.4 L924.0 126.8 L925.0 126.0 L926.0 125.1 L927.0 124.0 L928.0 122.8 L929.0 121.5 L930.0 120.1 L931.0 118.6 L932.0 117.1 L933.0 115.4 L934.0 113.8 L935.0 112.3 L936.0 110.8 L937.0 109.4 L938.0 108.3 L939.0 107.3 L940.0 106.6 L941.0 106.1 L942.0 106.0 L943.0 106.1 L944.0 106.6 L945.0 107.3 L946.0 108.3 L947.0 109.4 L948.0 110.8 L949.0 112.3 L950.0 113.8 L951.0 115.4 L952.0 117.1 L953.0 118.6 L954.0 120.1 L955.0 121.5 L956.0 122.8 L957.0 124.0 L958.0 125.1 L959.0 126.0 L960.0 126.8 L961.0 127.4 L962.0 128.0 L963.0 128.4 L964.0 128.8 L965.0 129.1 L966.0 129.3 L967.0 129.5 L968.0 129.6 L969.0 129.7 L970.0 129.8 L971.0 129.9 L972.0 129.9 L973.0 129.9 L974.0 130.0 L975.0 130.0 L976.0 130.0 L977.0 130.0 L978.0 130.0 L979.0 130.0 L980.0 130.0 L981.0 130.0 L982.0 130.0 L983.0 130.0 L984.0 130.0 L985.0 130.0 L986.0 130.0 L987.0 130.0 L988.0 130.0 L989.0 130.0 L990.0 130.0 L991.0 130.0 L992.0 130.0 L993.0 130.0 L994.0 130.0 L995.0 130.0 L996.0 130.0 L997.0 130.0 L998.0 130.0 L999.0 130.0 L1000.0 129.9 L1001.0 129.9 L1002.0 129.8 L1003.0 129.6 L1004.0 129.4 L1005.0 129.0 L1006.0 128.5 L1007.0 127.8 L1008.0 126.9 L1009.0 125.8 L1010.0 124.5 L1011.0 123.2 L1012.0 121.9 L1013.0 120.6 L1014.0 119.7 L1015.0 119.0 L1016.0 118.8 L1017.0 119.0 L1018.0 119.7 L1019.0 120.6 L1020.0 121.9 L1021.0 123.2 L1022.0 124.5 L1023.0 125.8 L1024.0 126.9 L1025.0 127.8 L1026.0 128.5 L1027.0 129.0 L1028.0 129.4 L1029.0 129.6 L1030.0 129.8 L1031.0 129.9 L1032.0 129.9 L1033.0 130.0 L1034.0 130.0 L1035.0 130.0 L1036.0 130.0 L1037.0 130.0 L1038.0 130.1 L1039.0 130.4 L1040.0 131.7 L1041.0 134.4 L1042.0 137.8 L1043.0 139.0 L1044.0 135.7 L1045.0 127.4 L1046.0 114.0 L1047.0 94.1 L1048.0 69.2 L1049.0 47.1 L1050.0 38.2 L1051.0 48.0 L1052.0 72.2 L1053.0 101.0 L1054.0 126.0 L1055.0 142.8 L1056.0 150.2 L1057.0 149.2 L1058.0 143.5 L1059.0 137.3 L1060.0 133.0 L1061.0 131.0 L1062.0 130.2 L1063.0 130.0 L1064.0 130.0 L1065.0 130.0 L1066.0 130.0 L1067.0 130.0 L1068.0 130.0 L1069.0 130.0 L1070.0 130.0 L1071.0 129.9 L1072.0 129.9 L1073.0 129.9 L1074.0 129.8 L1075.0 129.7 L1076.0 129.6 L1077.0 129.5 L1078.0 129.3 L1079.0 129.1 L1080.0 128.8 L1081.0 128.4 L1082.0 128.0 L1083.0 127.4 L1084.0 126.8 L1085.0 126.0 L1086.0 125.1 L1087.0 124.0 L1088.0 122.8 L1089.0 121.5 L1090.0 120.1 L1091.0 118.6 L1092.0 117.1 L1093.0 115.4 L1094.0 113.8 L1095.0 112.3 L1096.0 110.8 L1097.0 109.4 L1098.0 108.3 L1099.0 107.3 L1100.0 106.6 L1101.0 106.1 L1102.0 106.0 L1103.0 106.1 L1104.0 106.6 L1105.0 107.3 L1106.0 108.3 L1107.0 109.4 L1108.0 110.8 L1109.0 112.3 L1110.0 113.8 L1111.0 115.4 L1112.0 117.1 L1113.0 118.6 L1114.0 120.1 L1115.0 121.5 L1116.0 122.8 L1117.0 124.0 L1118.0 125.1 L1119.0 126.0 L1120.0 126.8 L1121.0 127.4 L1122.0 128.0 L1123.0 128.4 L1124.0 128.8 L1125.0 129.1 L1126.0 129.3 L1127.0 129.5 L1128.0 129.6 L1129.0 129.7 L1130.0 129.8 L1131.0 129.9 L1132.0 129.9 L1133.0 129.9 L1134.0 130.0 L1135.0 130.0 L1136.0 130.0 L1137.0 130.0 L1138.0 130.0 L1139.0 130.0 L1140.0 130.0 L1141.0 130.0 L1142.0 130.0 L1143.0 130.0 L1144.0 130.0 L1145.0 130.0 L1146.0 130.0 L1147.0 130.0 L1148.0 130.0 L1149.0 130.0 L1150.0 130.0 L1151.0 130.0 L1152.0 130.0 L1153.0 130.0 L1154.0 130.0 L1155.0 130.0 L1156.0 130.0 L1157.0 130.0 L1158.0 130.0 L1159.0 130.0 L1160.0 130.0 L1161.0 130.0 L1162.0 130.0 L1163.0 130.0 L1164.0 130.0 L1165.0 130.0 L1166.0 130.0 L1167.0 130.0 L1168.0 130.0 L1169.0 130.0 L1170.0 130.0 L1171.0 130.0 L1172.0 130.0 L1173.0 130.0 L1174.0 130.0 L1175.0 130.0 L1176.0 130.0 L1177.0 130.0 L1178.0 130.0 L1179.0 130.0 L1180.0 130.0 L1181.0 130.0 L1182.0 130.0 L1183.0 130.0 L1184.0 130.0 L1185.0 130.0 L1186.0 130.0 L1187.0 130.0 L1188.0 130.0 L1189.0 130.0 L1190.0 130.0 L1191.0 130.0 L1192.0 130.0 L1193.0 130.0 L1194.0 130.0 L1195.0 130.0 L1196.0 130.0 L1197.0 130.0 L1198.0 130.0 L1199.0 130.0 L1200.0 130.0"/>
-                <g class="ann">
-                  <text class="ann-strong" x="500" y="16" text-anchor="middle">ESV</text>
-                  <text x="615" y="64" text-anchor="middle">pause compensatoire</text>
-                </g>
-                <g class="rr">
-                  <line x1="90" y1="192" x2="250" y2="192"/><line x1="90" y1="186" x2="90" y2="198"/><line x1="250" y1="186" x2="250" y2="198"/>
-                  <text x="170" y="210" text-anchor="middle">800 ms</text>
-                  <line x1="250" y1="192" x2="410" y2="192"/><line x1="410" y1="186" x2="410" y2="198"/>
-                  <text x="330" y="210" text-anchor="middle">800 ms</text>
-                  <line x1="410" y1="192" x2="500" y2="192"/><line x1="500" y1="186" x2="500" y2="198"/>
-                  <text x="455" y="210" text-anchor="middle">450</text>
-                  <line x1="500" y1="192" x2="730" y2="192"/><line x1="730" y1="186" x2="730" y2="198"/>
-                  <text x="615" y="210" text-anchor="middle">1150 ms</text>
-                  <line x1="730" y1="192" x2="890" y2="192"/><line x1="890" y1="186" x2="890" y2="198"/>
-                  <text x="810" y="210" text-anchor="middle">800 ms</text>
-                  <line x1="890" y1="192" x2="1050" y2="192"/><line x1="1050" y1="186" x2="1050" y2="198"/>
-                  <text x="970" y="210" text-anchor="middle">800 ms</text>
-                </g>
-              </svg>
             </div>
-            <figcaption id="strip-cap">Une extrasystole ventriculaire (ESV) raccourcit l'intervalle RR, puis le cœur compense par une pause plus longue. C'est l'effet que l'analyse causale du projet mesure sur les intervalles RR qui suivent.</figcaption>
+            <figcaption>Le traitement étudié : un battement prématuré raccourcit l'intervalle RR, puis une pause compensatoire l'allonge. L'analyse causale mesure cet effet sur les battements suivants.</figcaption>
           </figure>
         </article>
 
-        <article class="project" aria-labelledby="p2">
-          <div class="project-top">
-            <span class="label">INF-1011 Génie logiciel · Équipe de cinq · Automne 2026</span>
-            <h3 id="p2">Loups-Garous en ligne</h3>
-            <p class="summary">Thiercelieux, une adaptation web multijoueur du jeu de société, où chaque joueur rejoint la partie depuis son propre appareil.</p>
-          </div>
-          <div class="project-cols">
-            <div class="prose">
-              <h4>Mon rôle</h4>
-              <p>J'ai participé à la construction du serveur en Java avec Spring Boot, qui gère l'état de la partie. J'ai développé l'interface en React et TypeScript : déroulement des phases de nuit et de jour, affichage des rôles et effets visuels qui rendent l'état de la partie lisible.</p>
-              <h4>Choix de conception</h4>
-              <ul>
-                <li>Une architecture volontairement simple, adaptée à un projet de session.</li>
-                <li>Six rôles au départ : Villageois, Loup-Garou, Voyante, Sorcière, Chasseur et Capitaine.</li>
-              </ul>
-              <ul class="tags" aria-label="Outils">
-                <li>React</li><li>TypeScript</li><li>Java</li><li>Spring Boot</li>
-              </ul>
-            </div>
-            <figure class="figure">
-              <div class="panel">
-                <svg class="diagram" viewBox="0 0 420 260" role="img" aria-labelledby="d2t d2d">
-                  <title id="d2t">Cycle de jeu et architecture</title>
-                  <desc id="d2d">La partie alterne entre la nuit, où agissent les Loups-Garous, la Voyante et la Sorcière, et le jour, où le village débat et vote. Le client React communique avec le serveur Spring Boot.</desc>
-                  <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="head" d="M0 0L10 5L0 10z"/></marker></defs>
-                  <rect x="10" y="10" width="180" height="120" rx="4"/>
-                  <text class="node-title" x="26" y="40">Nuit</text>
-                  <text x="26" y="66">Les Loups-Garous votent</text>
-                  <text x="26" y="86">La Voyante sonde un rôle</text>
-                  <text x="26" y="106">La Sorcière agit</text>
-                  <rect x="230" y="10" width="180" height="120" rx="4"/>
-                  <text class="node-title" x="246" y="40">Jour</text>
-                  <text x="246" y="66">Annonce des victimes</text>
-                  <text x="246" y="86">Débat du village</text>
-                  <text x="246" y="106">Vote, Capitaine décisif</text>
-                  <path class="arrow" d="M192 46 C 205 38, 215 38, 228 46" marker-end="url(#ah)"/>
-                  <path class="arrow" d="M228 96 C 215 104, 205 104, 192 96" marker-end="url(#ah)"/>
-                  <rect x="10" y="178" width="170" height="60" rx="4"/>
-                  <text class="tech" x="95" y="204" text-anchor="middle">Client</text>
-                  <text x="95" y="224" text-anchor="middle">React + TypeScript</text>
-                  <rect x="240" y="178" width="170" height="60" rx="4"/>
-                  <text class="tech" x="325" y="204" text-anchor="middle">Serveur</text>
-                  <text x="325" y="224" text-anchor="middle">Java + Spring Boot</text>
-                  <path class="arrow" d="M184 208 H 236" marker-start="url(#ah)" marker-end="url(#ah)"/>
-                </svg>
-              </div>
-              <figcaption>Le cycle de jeu que l'interface doit rendre clair pour chaque joueur.</figcaption>
-            </figure>
-          </div>
+        <article class="case" id="projet-thiercelieux" aria-labelledby="th-t">
+          <header class="case-head">
+            <h3 id="th-t">Thiercelieux, Loups-Garous en ligne</h3>
+            <p class="case-summary">Une adaptation web multijoueur du jeu de société, où chaque joueur participe depuis son propre appareil.</p>
+          </header>
+          <dl class="facts">
+            <div><dt>Contexte</dt><dd>INF-1011 Génie logiciel, UQTR</dd></div>
+            <div><dt>Équipe</dt><dd>Cinq étudiants, automne 2026</dd></div>
+            <div><dt>Mon rôle</dt><dd>Serveur et interface</dd></div>
+            <div><dt>Rôles du jeu</dt><dd>Six, du Villageois au Capitaine</dd></div>
+          </dl>
+          <ol class="chain" aria-label="Chaîne de cause à effet">
+            <li><span class="step">Question<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>Comment faire jouer une partie où chaque joueur, sur son propre écran, ne voit que ce que son rôle lui permet de voir ?</p></li>
+            <li><span class="step">Intervention<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>J'ai participé à la construction du serveur en Java avec Spring Boot et j'ai développé l'interface en React et TypeScript : salle d'attente avec code de table, phases de nuit et de jour, carte de rôle, vote et chronique de fin.</p></li>
+            <li><span class="step">Effet</span><p>Une partie complète jouable en ligne, avec six rôles : Villageois, Loup-Garou, Voyante, Sorcière, Chasseur et Capitaine.</p></li>
+          </ol>
+          <ul class="tools" aria-label="Outils">
+            <li>Java</li><li>Spring Boot</li><li>React</li><li>TypeScript</li>
+          </ul>
           <details class="shots">
-            <summary class="btn btn-ghost shots-toggle"><svg class="chev" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="when-closed">Voir les captures d'écran (4)</span><span class="when-open">Masquer les captures d'écran</span></summary>
-            <div class="shots-body">
-            <ul class="shots-grid shots-grid--desktop">
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/loups-accueil-1440.webp"><img src="assets/img/projets/loups-accueil-720.webp" srcset="assets/img/projets/loups-accueil-720.webp 720w, assets/img/projets/loups-accueil-1440.webp 1440w" sizes="(min-width: 56rem) 420px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Page d'accueil de Thiercelieux : titre Le village s'endort sur un ciel de nuit, résumé des règles et formulaire de connexion."></a><figcaption>Accueil : connexion ou création de compte, avec un rappel des règles.</figcaption></figure></li>
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/loups-salle-1440.webp"><img src="assets/img/projets/loups-salle-720.webp" srcset="assets/img/projets/loups-salle-720.webp 720w, assets/img/projets/loups-salle-1440.webp 1440w" sizes="(min-width: 56rem) 420px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Salle d'attente : cinq joueurs autour d'une table ovale, code de partie LUNE27, réglages de débat et de vote, bouton pour distribuer les cartes."></a><figcaption>Salle d'attente : les joueurs rejoignent la table avec un code et signalent qu'ils sont prêts.</figcaption></figure></li>
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/loups-jour-1440.webp"><img src="assets/img/projets/loups-jour-720.webp" srcset="assets/img/projets/loups-jour-720.webp 720w, assets/img/projets/loups-jour-1440.webp 1440w" sizes="(min-width: 56rem) 420px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Phase de jour : table du village, joueur éliminé barré, carte de rôle Voyante et Capitaine, minuterie et discussion du village."></a><figcaption>Phase de jour : rôle du joueur, minuterie, débat et ouverture du vote.</figcaption></figure></li>
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/loups-fin-1440.webp"><img src="assets/img/projets/loups-fin-720.webp" srcset="assets/img/projets/loups-fin-720.webp 720w, assets/img/projets/loups-fin-1440.webp 1440w" sizes="(min-width: 56rem) 420px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Écran de fin : titre Le village a survécu, liste des rôles révélés de chaque joueur et chronique des éliminations."></a><figcaption>Fin de partie : les cartes se retournent et la chronique résume la partie.</figcaption></figure></li>
+            <summary class="btn btn--ghost"><svg class="chev" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9.5l6 6 6-6"/></svg><span class="when-closed">Voir les captures d'écran (4)</span><span class="when-open">Masquer les captures d'écran</span></summary>
+            <ul class="shot-grid shot-grid--desktop">
+              <li><figure class="shot"><a href="assets/img/projets/loups-accueil-1440.webp"><img src="assets/img/projets/loups-accueil-720.webp" srcset="assets/img/projets/loups-accueil-720.webp 720w, assets/img/projets/loups-accueil-1440.webp 1440w" sizes="(min-width: 72rem) 560px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Page d'accueil de Thiercelieux : titre Le village s'endort sur un ciel de nuit, rappel des règles et formulaire de connexion."></a><figcaption>Accueil : connexion ou création de compte, avec un rappel des règles.</figcaption></figure></li>
+              <li><figure class="shot"><a href="assets/img/projets/loups-salle-1440.webp"><img src="assets/img/projets/loups-salle-720.webp" srcset="assets/img/projets/loups-salle-720.webp 720w, assets/img/projets/loups-salle-1440.webp 1440w" sizes="(min-width: 72rem) 560px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Salle d'attente : cinq joueurs autour d'une table ovale, code de partie LUNE27, réglages de débat et de vote."></a><figcaption>Salle d'attente : les joueurs rejoignent la table avec un code et signalent qu'ils sont prêts.</figcaption></figure></li>
+              <li><figure class="shot"><a href="assets/img/projets/loups-jour-1440.webp"><img src="assets/img/projets/loups-jour-720.webp" srcset="assets/img/projets/loups-jour-720.webp 720w, assets/img/projets/loups-jour-1440.webp 1440w" sizes="(min-width: 72rem) 560px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Phase de jour : table du village, joueur éliminé barré, carte de rôle Voyante et Capitaine, minuterie et discussion."></a><figcaption>Phase de jour : rôle du joueur, minuterie, débat et ouverture du vote.</figcaption></figure></li>
+              <li><figure class="shot"><a href="assets/img/projets/loups-fin-1440.webp"><img src="assets/img/projets/loups-fin-720.webp" srcset="assets/img/projets/loups-fin-720.webp 720w, assets/img/projets/loups-fin-1440.webp 1440w" sizes="(min-width: 72rem) 560px, (min-width: 40rem) 45vw, 100vw" width="1440" height="900" loading="lazy" decoding="async" alt="Écran de fin : Le village a survécu, rôles révélés de chaque joueur et chronique des éliminations."></a><figcaption>Fin de partie : les cartes se retournent et la chronique résume la partie.</figcaption></figure></li>
             </ul>
-            </div>
           </details>
         </article>
 
-        <article class="project" aria-labelledby="p3">
-          <div class="project-top">
-            <span class="label">Projet personnel · Application complète</span>
-            <h3 id="p3">Renovision AI</h3>
-            <p class="summary">Un client téléverse une photo de sa pièce, choisit un produit du catalogue du magasin et voit une vue avant et après générée par IA.</p>
-          </div>
-          <div class="project-cols project-cols--single">
-            <div class="prose">
-              <h4>Ce que j'ai construit</h4>
-              <ul>
-                <li>Un MVP fonctionnel : authentification JWT, tableau de bord de projets, gestion du catalogue et vue de comparaison avant et après.</li>
-                <li>Deux photos par produit (échantillon et exemple posé) ; jusqu'à trois images de référence envoyées au modèle de génération.</li>
-                <li>Normalisation des images AVIF en JPEG dès le téléversement, et un fournisseur d'IA de repli quand les quotas gratuits sont atteints.</li>
-              </ul>
-              <h4>Prochaine étape</h4>
-              <p>Déployer l'application et la valider avec un détaillant de matériaux de rénovation de la région comme client pilote, dans un modèle B2B2C.</p>
-              <ul class="tags" aria-label="Outils">
-                <li>React</li><li>Vite</li><li>Tailwind CSS</li><li>FastAPI</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>Capacitor</li>
-              </ul>
-            </div>
-          </div>
+        <article class="case" id="projet-renovision" aria-labelledby="rv-t">
+          <header class="case-head">
+            <h3 id="rv-t">Renovision AI</h3>
+            <p class="case-summary">Le client photographie sa pièce, choisit un produit du catalogue et voit le résultat avant d'acheter.</p>
+          </header>
+          <dl class="facts">
+            <div><dt>Contexte</dt><dd>Projet personnel</dd></div>
+            <div><dt>Mon rôle</dt><dd>Conception et développement complet</dd></div>
+            <div><dt>Modèle</dt><dd>SaaS B2B2C pour détaillants</dd></div>
+            <div><dt>Statut</dt><dd>MVP fonctionnel, pilote à valider</dd></div>
+          </dl>
+          <ol class="chain" aria-label="Chaîne de cause à effet">
+            <li><span class="step">Question<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>En magasin de rénovation, le client imagine mal un revêtement dans sa propre pièce. Peut-on le lui montrer avant l'achat ?</p></li>
+            <li><span class="step">Intervention<svg class="step-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M14 7l5 5-5 5"/></svg></span><p>Une application complète : React et Vite côté client, FastAPI et SQLAlchemy côté serveur, authentification JWT, catalogue avec deux photos par produit et génération d'images par IA avec un fournisseur de repli.</p></li>
+            <li><span class="step">Effet</span><p>Un MVP fonctionnel, prêt pour le mobile avec Capacitor. Prochaine étape : un projet pilote avec un détaillant de la région.</p></li>
+          </ol>
+          <ul class="tools" aria-label="Outils">
+            <li>React</li><li>Vite</li><li>Tailwind CSS</li><li>FastAPI</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>Capacitor</li>
+          </ul>
           <details class="shots">
-            <summary class="btn btn-ghost shots-toggle"><svg class="chev" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="when-closed">Voir les captures d'écran (3)</span><span class="when-open">Masquer les captures d'écran</span></summary>
-            <div class="shots-body">
-            <ul class="shots-grid shots-grid--mobile">
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/reno-projet-790.webp"><img src="assets/img/projets/reno-projet-395.webp" srcset="assets/img/projets/reno-projet-395.webp 395w, assets/img/projets/reno-projet-790.webp 790w" sizes="(min-width: 40rem) 30vw, 100vw" width="790" height="1328" loading="lazy" decoding="async" alt="Écran d'un projet Renovision AI nommé Salon principal : photo avant, rendu après, choix d'un produit de plancher et bouton Générer."></a><figcaption>Projet : photo avant, rendu après et choix du produit dans le catalogue.</figcaption></figure></li>
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/reno-accueil-1216.webp"><img src="assets/img/projets/reno-accueil-608.webp" srcset="assets/img/projets/reno-accueil-608.webp 608w, assets/img/projets/reno-accueil-1216.webp 1216w" sizes="(min-width: 40rem) 30vw, 100vw" width="1216" height="2236" loading="lazy" decoding="async" alt="Trois écrans mobiles de Renovision AI : accueil avec boutons S'inscrire et Se connecter, formulaire de connexion et formulaire de création de compte."></a><figcaption>Accueil, connexion et création de compte.</figcaption></figure></li>
-<li><figure class="shot"><a class="shot-link" href="assets/img/projets/reno-nouveau-1382.webp"><img src="assets/img/projets/reno-nouveau-691.webp" srcset="assets/img/projets/reno-nouveau-691.webp 691w, assets/img/projets/reno-nouveau-1382.webp 1382w" sizes="(min-width: 40rem) 30vw, 100vw" width="1382" height="1248" loading="lazy" decoding="async" alt="Deux écrans Nouveau projet : zone pour prendre ou choisir une photo, nom du projet et catégorie Plancher, Céramique ou Peinture."></a><figcaption>Nouveau projet : photo de la pièce, nom et catégorie de produit.</figcaption></figure></li>
+            <summary class="btn btn--ghost"><svg class="chev" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9.5l6 6 6-6"/></svg><span class="when-closed">Voir les captures d'écran (3)</span><span class="when-open">Masquer les captures d'écran</span></summary>
+            <ul class="shot-grid shot-grid--phone">
+              <li><figure class="shot"><a href="assets/img/projets/reno-projet-790.webp"><img src="assets/img/projets/reno-projet-395.webp" srcset="assets/img/projets/reno-projet-395.webp 395w, assets/img/projets/reno-projet-790.webp 790w" sizes="(min-width: 72rem) 370px, (min-width: 40rem) 30vw, 100vw" width="790" height="1328" loading="lazy" decoding="async" alt="Écran du projet Salon principal : photo avant, rendu après, choix d'un produit de plancher et bouton Générer."></a><figcaption>Projet : photo avant, rendu après et choix du produit.</figcaption></figure></li>
+              <li><figure class="shot"><a href="assets/img/projets/reno-accueil-1216.webp"><img src="assets/img/projets/reno-accueil-608.webp" srcset="assets/img/projets/reno-accueil-608.webp 608w, assets/img/projets/reno-accueil-1216.webp 1216w" sizes="(min-width: 72rem) 370px, (min-width: 40rem) 30vw, 100vw" width="1216" height="2236" loading="lazy" decoding="async" alt="Trois écrans mobiles : accueil avec S'inscrire et Se connecter, connexion et création de compte."></a><figcaption>Accueil, connexion et création de compte.</figcaption></figure></li>
+              <li><figure class="shot"><a href="assets/img/projets/reno-nouveau-1382.webp"><img src="assets/img/projets/reno-nouveau-691.webp" srcset="assets/img/projets/reno-nouveau-691.webp 691w, assets/img/projets/reno-nouveau-1382.webp 1382w" sizes="(min-width: 72rem) 370px, (min-width: 40rem) 30vw, 100vw" width="1382" height="1248" loading="lazy" decoding="async" alt="Deux écrans Nouveau projet : photo de la pièce, nom du projet et catégorie Plancher, Céramique ou Peinture."></a><figcaption>Nouveau projet : photo, nom et catégorie de produit.</figcaption></figure></li>
             </ul>
-            </div>
           </details>
         </article>
-
-        <aside class="more-projects" aria-label="Autres projets">
-          <p>Pour consulter plus de projets, visitez mon GitHub.</p>
-          <a class="btn btn-primary ext" href="https://github.com/abdellah-hailal" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Voir mon GitHub<span class="visually-hidden"> (nouvel onglet)</span></a>
-        </aside>
 
       </div>
+
+      <aside class="more" aria-label="Autres projets">
+        <p>Pour consulter plus de projets, visitez mon GitHub.</p>
+        <a class="btn btn--primary" href="https://github.com/abdellah-hailal" rel="noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Voir mon GitHub<span class="visually-hidden"> (nouvel onglet)</span></a>
+      </aside>
     </div>
   </section>
 
-  <section class="section" id="autres" aria-labelledby="autres-titre">
-    <div class="wrap section-grid">
-      <div class="section-head">
-        <span class="label">Cours</span>
-        <h2 id="autres-titre">Autres travaux</h2>
-      </div>
-      <div class="section-body">
-        <ul class="list-plain">
-          <li>
-            <h3>Études de cas en stratégie</h3>
-            <p>Analyses FFOM et formulation d'options stratégiques pour Bombardier, Centre de nettoyage inc., Boulangerie Lépine ltée et KindyBis, avec recommandations argumentées.</p>
-          </li>
-        </ul>
-      </div>
+  <section class="section" id="parcours" aria-labelledby="parcours-titre">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="parcours-titre">Parcours</h2>
+      </header>
+      <ol class="timeline">
+        <li>
+          <span class="when">Jusqu'en avril 2027</span>
+          <h3>Études en science des données, UQTR</h3>
+          <p>Apprentissage automatique, apprentissage profond et inférence causale, sous la supervision du Pr Usef Faghihi pour le projet MIT-BIH. Aussi des études de cas en stratégie d'entreprise : Bombardier, Boulangerie Lépine, KindyBis.</p>
+        </li>
+        <li>
+          <span class="when">En parallèle des études</span>
+          <h3>Conseiller aux ventes, matériaux de rénovation</h3>
+          <p>Conseil à la clientèle sur le choix des revêtements, à Trois-Rivières. C'est là qu'est né Renovision AI.</p>
+        </li>
+        <li class="is-next">
+          <span class="when">Janvier à avril 2027</span>
+          <h3>Stage crédité en science des données</h3>
+          <p>Stage obligatoire au programme, d'au moins 128 heures. Je cherche un mandat en analyse de données, mesure de performance ou IA.</p>
+        </li>
+      </ol>
     </div>
   </section>
 
   <section class="section" id="competences" aria-labelledby="comp-titre">
-    <div class="wrap section-grid">
-      <div class="section-head">
-        <span class="label">Outils</span>
-        <h2 id="comp-titre">Compétences</h2>
-      </div>
-      <div class="section-body">
-        <dl class="skills">
-          <dt>Apprentissage automatique</dt>
-          <dd>Classification de séries temporelles, MiniRocket, XGBoost, réseaux convolutifs et récurrents (CNN 1D, LSTM), gestion du déséquilibre de classes.</dd>
-          <dt>Inférence causale</dt>
-          <dd>Double Machine Learning, forêts causales, estimation d'effets moyens (ATE), choix des facteurs de confusion.</dd>
-          <dt>Développement</dt>
-          <dd>Python, FastAPI, SQLAlchemy, PostgreSQL, React, TypeScript, Java avec Spring Boot.</dd>
-          <dt>Environnement</dt>
-          <dd>Jupyter, VS Code, suite Microsoft 365.</dd>
-          <dt>Langues</dt>
-          <dd>Français et anglais.</dd>
-        </dl>
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="comp-titre">Ce que je sais faire</h2>
+      </header>
+      <div class="skills">
+        <section class="skill" aria-labelledby="sk1">
+          <h3 id="sk1">Inférence causale</h3>
+          <p>Distinguer une corrélation d'un effet, choisir les bons facteurs de confusion, estimer un effet moyen.</p>
+          <ul class="tools"><li>Double ML</li><li>Forêts causales</li><li>ATE</li></ul>
+        </section>
+        <section class="skill" aria-labelledby="sk2">
+          <h3 id="sk2">Apprentissage automatique</h3>
+          <p>Classer des séries temporelles et des signaux biomédicaux, gérer le déséquilibre des classes.</p>
+          <ul class="tools"><li>XGBoost</li><li>MiniRocket</li><li>CNN 1D</li><li>LSTM</li></ul>
+        </section>
+        <section class="skill" aria-labelledby="sk3">
+          <h3 id="sk3">Développement</h3>
+          <p>Construire une application de bout en bout, du serveur à l'interface.</p>
+          <ul class="tools"><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>Java</li><li>Spring Boot</li><li>React</li><li>TypeScript</li></ul>
+        </section>
+        <section class="skill" aria-labelledby="sk4">
+          <h3 id="sk4">Outils et langues</h3>
+          <p>Je travaille en français et en anglais, seul ou en équipe.</p>
+          <ul class="tools"><li>Jupyter</li><li>VS Code</li><li>Microsoft 365</li></ul>
+        </section>
       </div>
     </div>
   </section>
 
   <section class="section" id="contact" aria-labelledby="contact-titre">
-    <div class="wrap section-grid">
-      <div class="section-head">
-        <span class="label">Contact</span>
-        <h2 id="contact-titre">Travaillons ensemble</h2>
+    <div class="wrap">
+    <div class="contact">
+      <h2 class="contact-lead" id="contact-titre">Votre équipe a une question de données ? <span class="note-serif">Écrivez-moi.</span></h2>
+      <p>Je cherche un stage en science des données ou en IA, de janvier à avril 2027. Je réponds à chaque message.</p>
+      <div class="email-line">
+        <a id="email" href="mailto:abdellah.hailal@outlook.com">abdellah.hailal@outlook.com</a>
+        <button class="text-btn" type="button" id="copy">Copier l'adresse</button>
       </div>
-      <div class="section-body">
-        <div class="contact-card">
-          <p class="big">Je cherche un stage en science des données ou en IA, de janvier à avril 2027.</p>
-          <p>Analyse de données, mesure de performance, modélisation : je réponds à chaque message.</p>
-          <div class="email-row">
-            <a class="email" id="email" href="mailto:abdellah.hailal@outlook.com">abdellah.hailal@outlook.com</a>
-            <button class="btn btn-ghost" type="button" id="copy">Copier l'adresse</button>
-          </div>
-          <div class="contact-links">
-            <a class="btn btn-primary ext" href="mailto:abdellah.hailal@outlook.com?subject=Stage%20en%20science%20des%20donn%C3%A9es"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="13" height="10" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M2 4l6 5 6-5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>M'écrire</a>
-            <a class="btn btn-ghost ext" href="https://github.com/abdellah-hailal" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/abdellah-hailal<span class="visually-hidden"> (nouvel onglet)</span></a>
-          </div>
-          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
-        </div>
+      <p class="status" id="copy-status" role="status" aria-live="polite"></p>
+      <div class="actions">
+        <a class="btn btn--primary" href="mailto:abdellah.hailal@outlook.com?subject=Stage%20en%20science%20des%20donn%C3%A9es"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg>M'écrire</a>
+        <a class="btn btn--ghost" href="https://github.com/abdellah-hailal" rel="noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub<span class="visually-hidden"> (nouvel onglet)</span></a>
       </div>
     </div>
+    </div>
   </section>
+
   <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-cap">
     <form method="dialog" class="lightbox-bar">
       <p class="lightbox-cap" id="lightbox-cap"></p>
-      <button class="lightbox-close" type="submit" aria-label="Fermer l'aperçu">
-        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      </button>
+      <button class="icon-btn" type="submit" aria-label="Fermer l'aperçu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </form>
-    <img class="lightbox-img" id="lightbox-img" src="data:," alt="">
+    <div class="lightbox-media" id="lightbox-media"></div>
   </dialog>
 </main>
 
-<footer class="site-footer">
+<footer class="footer">
   <div class="wrap">
     <span>© 2026 Abdellah Hailal</span>
-    <span>Trois-Rivières, Québec · <a href="https://github.com/abdellah-hailal" rel="noopener" target="_blank">GitHub</a></span>
+    <span>Trois-Rivières, Québec</span>
   </div>
 </footer>
 </body>
